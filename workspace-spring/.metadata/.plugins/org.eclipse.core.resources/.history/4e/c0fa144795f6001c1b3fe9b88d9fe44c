@@ -1,0 +1,5 @@
+package kr.co.ezenac.di;
+
+public class PersonServicelmpl implements PersonService{
+
+}

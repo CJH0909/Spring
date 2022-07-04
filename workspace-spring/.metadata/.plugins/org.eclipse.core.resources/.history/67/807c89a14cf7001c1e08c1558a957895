@@ -1,0 +1,11 @@
+package kr.co.ezenac.di06;
+
+import org.springframework.context.support.GenericXmlApplicationContext;
+
+public class HelloBeanTest {
+	public static void main(String[] args) {
+		
+		ApplicationContest ac = new GenericXmlApplicationContext("beans.xml")
+		
+	}
+}

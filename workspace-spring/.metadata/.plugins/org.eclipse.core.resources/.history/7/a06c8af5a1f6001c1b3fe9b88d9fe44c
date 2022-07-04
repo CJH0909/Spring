@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+        "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+<beans>
+	<!--bean태그 이용해 PersonServicelmpl 객체(빈)을 생성하고 빈 id를 지정 -->
+	<bean id="personService" class="kr.co.ezenac.di.PersonServicelmpl">
+		<!-- PersonServicelmpl 객체의 속성 name값을 value태그를 이용해 초기화 -->
+		<property name="name">
+			<value>이순신</value>
+		</property>
+	</bean>
+	<!--인자가 한 개인 생성자로 '이방원을 전달' => 속성 name을 초기화  -->
+	<bean id="pesrsonServic1" class="kr.com.di02.PersonServicelmpl">
+		<constructor-arg value="이방원"></constructor-arg>
+	</bean>
+	
+	<!--인자가 한 개인 생성자로 '이방원을 전달' => 속성 name, agef를 초기화  -->
+	<bean id="pesrsonServic2" class="kr.com.di02.PersonServicelmpl">
+		<constructor-arg value="이방원"></constructor-arg>
+		<constructor-arg value="20"></constructor-arg>
+	</bean>
+</beans>

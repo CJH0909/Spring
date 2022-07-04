@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;memberForm.jsp&apos; to &apos;orm4&apos;&#x0D;&#x0A;- Original project: &apos;ezen04_SpringMVC&apos;&#x0D;&#x0A;- Destination element: &apos;orm4&apos;&#x0D;&#x0A;- Original element: &apos;memberForm.jsp&apos;" description="Copy file" element1="src/main/webapp/multi/memberForm.jsp" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1656907327940" target="/ezen05_Mybatis/src/main/webapp/orm4" units="0" version="1.0"/>
+</session>

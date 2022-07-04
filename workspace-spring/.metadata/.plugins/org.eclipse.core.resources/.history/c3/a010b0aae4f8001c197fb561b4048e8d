@@ -1,0 +1,11 @@
+package kr.co.mybatis.orm01;
+
+import java.sql.Date;
+
+public class MemberDTO {
+	private String id;
+	private String pwd;
+	private String name;
+	private String email;
+	private Date date;
+}

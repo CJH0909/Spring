@@ -1,0 +1,10 @@
+package kr.co.ezenac.multiaction;
+
+import org.springframework.web.servlet.mvc.multiaction.MultiActionController;
+/*
+ * 설정 파일의 
+ */
+public class UserController extends MultiActionController {
+
+			
+}

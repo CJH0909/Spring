@@ -1,0 +1,10 @@
+package kr.co.ezenac.di04;
+
+class car {
+	String color;
+	int oil;
+}
+
+public class SpringDITest {
+
+}

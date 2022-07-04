@@ -1,0 +1,19 @@
+package kr.co.mybatis.orm01;
+
+import java.sql.Date;
+
+public class MemberDTO {
+	private String id;
+	private String pwd;
+	private String name;
+	private String email;
+	private Date joindate;
+	
+	public MemberDTO() {
+		// TODO Auto-generated constructor stub
+	}
+	
+	public MemberDTO(String id, String pwd,String name, String email) {
+		// TODO Auto-generated constructor stub
+	}
+}

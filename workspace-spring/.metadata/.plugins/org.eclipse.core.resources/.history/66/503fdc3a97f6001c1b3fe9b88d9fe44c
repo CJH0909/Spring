@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+        "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+<beans>
+	<!--bean태그 이용해 PersonServicelmpl 객체(빈)을 생성하고 빈 id를 지정 -->
+	<bean id="personService" class="kr.co.ezenac.di.PersonServicelmpl">
+		<!-- PersonServicelmpl 객체의 속성 name -->
+		<property name="name">
+			<value>이순신</value>
+		</property>
+	</bean>
+</beans>
