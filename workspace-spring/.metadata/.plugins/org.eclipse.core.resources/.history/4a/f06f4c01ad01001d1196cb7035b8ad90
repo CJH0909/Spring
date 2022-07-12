@@ -1,0 +1,19 @@
+package kr.co.fileinter.fileupdown;
+
+import javax.servlet.http.HttpServletResponse;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+
+
+@Controller
+public class FileDownloadController {
+	//파일 저장 위치 지정
+		private static final String CURR_IMAGE_PEPO_PATH = "C:\\workspace-spring\\imageRepo";
+		
+		@RequestMapping("/download")
+		public void download(@RequestParam("imageFileName") String imageFileName, HttpServletResponse response) throws Exception {
+			
+		}
+}

@@ -1,0 +1,18 @@
+package kr.co.fileinter.fileupdown;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+public class FileUploadController {
+	//파일 저장 위치 지정
+	private static final String CURR_IMAGE_PEPO_PATH = "C:\\workspace-spring\\imageRepo";
+	
+	@RequestMapping(value="/form")
+	public String form() {	
+		return "uploadForm";
+	}
+	
+	public ModelAndview upload(MultipartHttpServletRequest mu)
+	
+}

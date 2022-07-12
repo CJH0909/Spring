@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;loginForm.jsp&apos; to &apos;member&apos;&#x0D;&#x0A;- Original project: &apos;ezen08_Spring_AnnotationEZEN&apos;&#x0D;&#x0A;- Destination element: &apos;member&apos;&#x0D;&#x0A;- Original element: &apos;loginForm.jsp&apos;" description="Copy file" element1="src/main/webapp/WEB-INF/views/anno/loginForm.jsp" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1657589672263" target="/ezen09_Log4j_Tiles (3)/src/main/webapp/WEB-INF/views/member" units="0" version="1.0"/>
+</session>

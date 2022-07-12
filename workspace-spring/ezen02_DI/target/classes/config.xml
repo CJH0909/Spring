@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.1.xsd">
-	
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
 	<bean id="car" class="kr.co.ezenac.di04.Car">
 		<constructor-arg name="color" value="red" />
 		<constructor-arg name="oil" value="100" />
@@ -17,5 +17,4 @@
 	
 	<bean id="engine" class="kr.co.ezenac.di04.Engine" />
 	<bean id="door" class="kr.co.ezenac.di04.Door" scope="singleton" />
-	
 </beans>

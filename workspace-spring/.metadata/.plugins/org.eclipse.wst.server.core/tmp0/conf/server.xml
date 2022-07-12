@@ -152,7 +152,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="C:\workspace-spring\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="C:\workspace-spring\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ezen05_Mybatis" path="/mybatis" reloadable="true" source="org.eclipse.jst.jee.server:ezen05_Mybatis"/></Host>
+      <Context docBase="C:\workspace-spring\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="C:\workspace-spring\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ezen10_FileUD_Intercepter" path="/fileinter" reloadable="true" source="org.eclipse.jst.jee.server:ezen10_FileUD_Intercepter"/><Context docBase="C:\workspace-spring\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ezen09_Log4j_Tiles (4) (1)" path="/tiles" reloadable="true" source="org.eclipse.jst.jee.server:ezen09_Log4j_Tiles (4) (1)"/></Host>
     </Engine>
   </Service>
 </Server>

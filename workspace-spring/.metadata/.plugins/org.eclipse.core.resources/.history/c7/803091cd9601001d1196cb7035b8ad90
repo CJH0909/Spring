@@ -1,0 +1,8 @@
+package kr.co.fileinter.fileupdown;
+
+import org.springframework.stereotype.Controller;
+
+@Controller
+public class FileUploadController {
+	//파일 저장 위치 지정
+}

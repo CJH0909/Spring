@@ -6,14 +6,30 @@
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
+		<item key="selection" value=""/>
 		<list key="findhistory">
+			<item value="main"/>
+			<item value="filename0"/>
+			<item value="filename"/>
+			<item value="file"/>
+			<item value="around"/>
+			<item value="Around"/>
+			<item value="Arg"/>
+			<item value="getArg"/>
+			<item value="getArgs"/>
+			<item value="execu"/>
+			<item value="exe"/>
+			<item value="p"/>
+			<item value="execution"/>
+			<item value=""/>
+			<item value="prox"/>
 		</list>
 		<list key="replacehistory">
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
-		<item key="DIALOG_X_ORIGIN" value="479"/>
-		<item key="DIALOG_Y_ORIGIN" value="402"/>
+		<item key="DIALOG_X_ORIGIN" value="241"/>
+		<item key="DIALOG_Y_ORIGIN" value="595"/>
 		<item key="DIALOG_WIDTH" value="340"/>
 		<item key="DIALOG_HEIGHT" value="454"/>
 		<item key="DIALOG_FONT_NAME" value="1|맑은 고딕|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕"/>

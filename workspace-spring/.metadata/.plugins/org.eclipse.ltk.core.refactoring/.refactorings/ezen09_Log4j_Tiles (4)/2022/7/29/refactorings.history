@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;lib&apos; to &apos;webapp&apos;&#x0D;&#x0A;- Original project: &apos;ezen09_Log4j_Tiles (4)&apos;&#x0D;&#x0A;- Destination element: &apos;webapp&apos;&#x0D;&#x0A;- Original element: &apos;lib&apos;" description="Copy folder" element1="src/main/webapp/WEB-INF/lib" files="0" flags="589830" folders="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1657597495693" target="/ezen10_FileUD_Intercepter/src/main/webapp" units="0" version="1.0"/>
+</session>
