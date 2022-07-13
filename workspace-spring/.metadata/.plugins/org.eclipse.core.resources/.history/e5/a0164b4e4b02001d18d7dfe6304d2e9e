@@ -1,0 +1,5 @@
+package kr.co.fileinter.inter;
+
+public class LocaleInterceptor {
+
+}

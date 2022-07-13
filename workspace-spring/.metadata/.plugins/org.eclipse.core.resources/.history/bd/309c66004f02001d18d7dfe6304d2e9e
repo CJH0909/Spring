@@ -1,0 +1,13 @@
+package kr.co.fileinter.inter;
+
+import javax.servlet.http.HttpServletRequest;
+
+import org.springframework.stereotype.Controller;
+
+@Controller("localeController")
+public class LocaleController {
+
+	public String locale(HttpServletRequest request, HttpServletResponse response) throws Exception {
+		
+	}
+}

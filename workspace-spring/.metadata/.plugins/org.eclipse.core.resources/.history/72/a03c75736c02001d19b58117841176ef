@@ -1,0 +1,10 @@
+package kr.co.restful;
+
+public class MemberDTO {
+	private String id;
+	private String pwd;
+	private String name;
+	private String email;
+	private String id;
+
+}

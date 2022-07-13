@@ -1,0 +1,6 @@
+package kr.co.fileinter.inter;
+
+@Controller("localeController")
+public class LocaleController {
+
+}

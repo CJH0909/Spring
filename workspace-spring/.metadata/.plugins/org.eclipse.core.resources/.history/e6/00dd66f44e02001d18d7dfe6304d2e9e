@@ -1,0 +1,9 @@
+package kr.co.fileinter.inter;
+
+import org.springframework.stereotype.Controller;
+
+@Controller("localeController")
+public class LocaleController {
+
+	
+}
