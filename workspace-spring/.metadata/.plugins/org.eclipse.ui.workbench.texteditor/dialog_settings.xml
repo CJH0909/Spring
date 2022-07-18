@@ -6,8 +6,13 @@
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value=""/>
+		<item key="selection" value="mapper"/>
 		<list key="findhistory">
+			<item value="mapper"/>
+			<item value="configuration"/>
+			<item value="location"/>
+			<item value="_member_id_member_id"/>
+			<item value="&lt;/li&gt;"/>
 			<item value="main"/>
 			<item value="filename0"/>
 			<item value="filename"/>
@@ -18,11 +23,6 @@
 			<item value="getArg"/>
 			<item value="getArgs"/>
 			<item value="execu"/>
-			<item value="exe"/>
-			<item value="p"/>
-			<item value="execution"/>
-			<item value=""/>
-			<item value="prox"/>
 		</list>
 		<list key="replacehistory">
 		</list>

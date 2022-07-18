@@ -1,0 +1,5 @@
+package kr.co.ezenStroe.member.dao;
+
+public interface MemberDAO {
+
+}

@@ -1,0 +1,5 @@
+package kr.co.ezenStroe.member.controller;
+
+public class MemberControllerImpl {
+
+}

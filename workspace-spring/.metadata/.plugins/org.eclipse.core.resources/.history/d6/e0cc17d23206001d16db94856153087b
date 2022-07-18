@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:aop="http://www.springframework.org/schema/aop"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-4.1.xsd">
+
+	<aop:aspectj-autoproxy /> <!-- AOP 어노테이션으로 설정-  -->
+	<bean id="propertyPlaceholderConfigurer" 
+					class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+		<property name="locations">
+			<value>/WEB-INF/config/jdbc/jdbc.properties</value>
+		</property>
+	</bean>
+</beans>
+
+	<!-- PooledDataSource 이용해서 dataSource 빈 생성 -->
+	<bean id="dataSource" class="org.apache.ibatis.datasource.pooled.PooledDataSource">
+		<property name="driver" value="${jdbc.driverClassName}" />
+		<property name="url" value="${jdbc.url}"/>
+		<property name="username" value="${jdbc.username}"/>
+		<property name="password" value="${jdbc.password}"/>
+	</bean>

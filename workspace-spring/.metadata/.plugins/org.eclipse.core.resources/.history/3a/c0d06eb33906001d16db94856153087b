@@ -1,0 +1,48 @@
+package kr.co.ezenStroe.member.dto;
+
+/*
+ * 	member_id 		varchar2(20byte) PRIMARY KEY
+	,member_pw		varchar2(30 byte)
+	,member_name 	varchar2(50 byte)
+	,member_gender 	varchar2(10 byte)
+	,hp1			varchar2(20 byte)
+	,hp2			varchar2(20 byte)
+	,hp3			varchar2(20 byte)
+	,smssts_yn		varchar2(20 byte)
+	,email1			varchar2(20 byte)
+	,email2			varchar2(20 byte)
+	,emailsts_yn	varchar2(20 byte)
+	,zipcode		varchar2(20 byte)
+	,roadaddress	varchar2(500 byte)
+	,jibunaddress	varchar2(500 byte)
+	,namujiaddress	varchar2(500 byte)
+	,member_birth_y varchar2(20 byte)
+	,member_birth_m varchar2(20 byte)
+	,member_birth_d	varchar2(20 byte)
+	,member_birth_gn varchar2(20 byte)
+	,joindate		DATE DEFAULT sysdate
+	,del_yn 		varchar2(20 byte) DEFAULT 'N'
+ */
+public class MemberDTO {
+	private String member_id;
+	private String member_pw;
+	private String member_name;
+	private String member_gender;
+	private String hp1;
+	private String hp2;
+	private String hp3;
+	private String smssts_yn;
+	private String email1;
+	private String email2;
+	private String emailsts_yn;
+	private String zipcode;
+	private String roadaddress;
+	private String jibunaddress;
+	private String namujiaddress;
+	private String member_birth_y;
+	private String member_birth_m;
+	private String member_birth_d;	
+	private String member_birth_gn;
+	private String joindate;
+	private String del_yn;
+}

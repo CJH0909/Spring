@@ -29,9 +29,11 @@ public class MemberDTO {
 	public void setEmail(String email) {
 		this.email = email;
 	}
+	
 	@Override
 	public String toString() {
-		String info = id +", "+pwd+", "+name+", "+email;
+		String info = id +", "+ pwd +", "+ name +", "+ email;
 		return info;
 	}
+
 }

@@ -111,6 +111,9 @@
 		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
 		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="C:\workspace-spring\ezenStore (2)"/>
+			<item value="C:\workspace-spring\ezenStore2"/>
+			<item value="C:\workspace-spring\ezen12_Board"/>
 			<item value="C:\workspace-spring\ezen11_Restful (2)"/>
 			<item value="C:\workspace-spring\ezen10_FileUD_Intercepter (2) (1)"/>
 			<item value="C:\workspace-spring\ezen09_Log4j_Tiles (4) (1)"/>
