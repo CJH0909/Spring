@@ -15,6 +15,11 @@
 		<put-attribute name="title" value="글쓰기" />	
 		<put-attribute name="body" value="/WEB-INF/views/board/articleForm.jsp" />	<!-- 글쓰기창 -->
 	</definition>
+	
+	<definition name="/board/viewArticle" extends="baseLayout">
+		<put-attribute name="title" value="글상세보기" />
+		<put-attribute name="body" value="/WEB-INF/views/board/viewArticle.jsp" />
+	</definition>
 
 </tiles-definitions>       
        
