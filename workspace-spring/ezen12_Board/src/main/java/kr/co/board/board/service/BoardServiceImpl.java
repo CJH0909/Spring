@@ -34,6 +34,12 @@ public class BoardServiceImpl implements BoardService {
 		
 		return articleNo;
 	}
+	
+	@Override
+	public Map<String, Object> viewArticle(int articleNO) throws Exception {
+		// TODO Auto-generated method stub
+		return null;
+	}
 
 }
 

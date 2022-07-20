@@ -6,8 +6,11 @@
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value="mapper"/>
+		<item key="selection" value="d_file"/>
 		<list key="findhistory">
+			<item value="d_file"/>
+			<item value="파일"/>
+			<item value="파일 선택"/>
 			<item value="mapper"/>
 			<item value="configuration"/>
 			<item value="location"/>
@@ -20,9 +23,6 @@
 			<item value="around"/>
 			<item value="Around"/>
 			<item value="Arg"/>
-			<item value="getArg"/>
-			<item value="getArgs"/>
-			<item value="execu"/>
 		</list>
 		<list key="replacehistory">
 		</list>

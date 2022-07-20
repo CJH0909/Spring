@@ -5,7 +5,21 @@
   <link rel="self" href="https://spring.io/blog.atom" />
   <id>http://spring.io/blog.atom</id>
   <icon>https://spring.io/favicon.ico</icon>
-  <updated>2022-07-19T10:00:00Z</updated>
+  <updated>2022-07-20T07:00:00Z</updated>
+  <entry>
+    <title>Spring Tips: Kubernetes Native Java (Redux, 2022)</title>
+    <link rel="alternate" href="https://spring.io/blog/2022/07/20/spring-tips-kubernetes-native-java-redux-2022" />
+    <category term="engineering" label="Engineering" />
+    <author>
+      <name>Josh Long</name>
+    </author>
+    <id>tag:spring.io,2022-07-17:4855</id>
+    <updated>2022-07-20T07:00:00Z</updated>
+    <content type="html">&lt;p&gt;Hi, Spring fans! In this installment, Josh Long (@starbuxman) looks at some of the amazing opportunities for building Spring Boot applications intended for production in Kubernetes in mid 2022. &lt;/p&gt;
+&lt;p&gt;The code, as usual, &lt;a href="https://github.com/spring-tips/kubernetes-native-java-redux-2022-07"&gt;is available on the &lt;code&gt;spring-tips&lt;/code&gt; Github organization&lt;/a&gt;&lt;/p&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/Xe7K1biKcs0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+&lt;!-- rendered by Sagan Renderer Service --&gt;</content>
+  </entry>
   <entry>
     <title>This Week in Spring - July 19th, 2022</title>
     <link rel="alternate" href="https://spring.io/blog/2022/07/19/this-week-in-spring-july-19th-2022" />
@@ -74,20 +88,6 @@
 &lt;div class="paragraph"&gt;
 &lt;p&gt;&lt;a href="http://projects.spring.io/spring-security/"&gt;Project Site&lt;/a&gt; | &lt;a href="https://docs.spring.io/spring-security/reference/"&gt;Reference&lt;/a&gt; | &lt;a href="http://stackoverflow.com/questions/tagged/spring-security"&gt;Help&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;
-&lt;!-- rendered by Sagan Renderer Service --&gt;</content>
-  </entry>
-  <entry>
-    <title>Spring Tips: Kubernetes Native Java (Redux, 2022)</title>
-    <link rel="alternate" href="https://spring.io/blog/2022/07/17/spring-tips-kubernetes-native-java-redux-2022" />
-    <category term="engineering" label="Engineering" />
-    <author>
-      <name>Josh Long</name>
-    </author>
-    <id>tag:spring.io,2022-07-17:4855</id>
-    <updated>2022-07-17T19:00:00Z</updated>
-    <content type="html">&lt;p&gt;Hi, Spring fans! In this installment, Josh Long (@starbuxman) looks at some of the amazing opportunities for building Spring Boot applications intended for production in Kubernetes in mid 2022. &lt;/p&gt;
-&lt;p&gt;The code, as usual, &lt;a href="https://github.com/spring-tips/kubernetes-native-java-redux-2022-07"&gt;is available on the &lt;code&gt;spring-tips&lt;/code&gt; Github organization&lt;/a&gt;&lt;/p&gt;
-&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/Xe7K1biKcs0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
 &lt;!-- rendered by Sagan Renderer Service --&gt;</content>
   </entry>
   <entry>

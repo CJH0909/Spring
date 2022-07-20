@@ -74,13 +74,13 @@
 		<item value="org.eclipse.tm.terminal.feature:10.4.0.202106130052"/>
 		<item value="org.eclipse.tm.terminal.view.feature:10.4.0.202108241639"/>
 		<item value="org.eclipse.userstorage:1.2.0.v20210517-0327"/>
-		<item value="org.eclipse.wst.common.fproj:3.7.3.v202007142017"/>
+		<item value="org.eclipse.wst.common.fproj:3.7.3.v202111212041"/>
 		<item value="org.eclipse.wst.jsdt.chromium.debug.feature:0.6.100.v201908270117"/>
 		<item value="org.eclipse.wst.jsdt.feature:2.3.600.v202108041610"/>
 		<item value="org.eclipse.wst.json_ui.feature:1.1.10.v202103121626"/>
-		<item value="org.eclipse.wst.web_ui.feature:3.23.0.v202107272335"/>
+		<item value="org.eclipse.wst.web_ui.feature:3.26.0.v202204091445"/>
 		<item value="org.eclipse.wst.xml.xpath2.processor.feature:2.0.302.v201909031400"/>
-		<item value="org.eclipse.wst.xml_ui.feature:3.23.0.v202107101937"/>
+		<item value="org.eclipse.wst.xml_ui.feature:3.26.0.v202204091445"/>
 		<item value="org.eclipse.wst.xsl.feature:1.3.900.v202005251734"/>
 		<item value="org.eclipse.zest:1.7.0.201606061308"/>
 		<item value="org.jboss.tools.m2e.wro4j.feature:1.1.0.201406251020"/>
@@ -111,6 +111,7 @@
 		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
 		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="C:\workspace-spring\ezen12_Board (7)"/>
 			<item value="C:\workspace-spring\ezen12_Board"/>
 			<item value="C:\workspace-spring\ezenStore (2)"/>
 			<item value="C:\workspace-spring\ezenStore2"/>
@@ -130,7 +131,6 @@
 			<item value="C:\workspace-spring\ezen05_Mybatis0704"/>
 			<item value="C:\workspace-spring\ezen05_Mybatis (2)"/>
 			<item value="C:\workspace-spring\ezen05_MybatisEZEN"/>
-			<item value="C:\workspace-spring\ezen02_DI (3)"/>
 		</list>
 		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
 			<item value=""/>

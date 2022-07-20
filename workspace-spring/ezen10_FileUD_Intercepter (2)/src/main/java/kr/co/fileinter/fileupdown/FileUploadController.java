@@ -67,14 +67,17 @@ public class FileUploadController {
 			String fileName = fileNames.next();
 			//파일 이름에 대한 MultipartFile 객체를 가져옴
 			MultipartFile mFile = multipartRequest.getFile(fileName);
+			System.out.println(fileName);
 			String originalFilename =  mFile.getOriginalFilename();			//실제 파일 이름 가져옴
+			System.out.println("o:"+originalFilename);
 			
 			fileList.add(originalFilename);									//파일 이름을 하나씩 fileList에 저장
 			
 			File file = new File(CURR_IMAGE_PEPO_PATH +"\\"+ fileName);
+			System.out.println("parentFile:"+file.getParentFile());
 			if(mFile.getSize() != 0) {										//첨부된 파일이 있는지 체크
 				if(!file.exists()) {										//경로에 파일이 없으면 그 경로에 해당하는 
-					if(file.getParentFile().mkdirs()) {						//디렉토리를 만든 후 파일을 생성함					
+					if(file.getParentFile().mkdirs()) {						//디렉토리를 만든 후 파일을 생성함
 						file.createNewFile();
 					}
 				}

@@ -15,6 +15,8 @@ C:\workspace-spring\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\327198
 \ezen08_Spring_AnnotationEZEN\src\main\java
 C:\workspace-spring\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1823557430.index
 \test\src\main\java
+C:\workspace-spring\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3830160889.index
+\ezen12_Board (7)\src\main\java
 C:\workspace-spring\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\853343950.index
 \ezen05_Mybatis (3)\src\main\java
 C:\workspace-spring\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3973973279.index
@@ -57,6 +59,10 @@ C:\workspace-spring\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\141833
 \ezen05_MybatisEZEN\src\main\java
 C:\workspace-spring\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1538953687.index
 \ezenStore2\src\main\java
+C:\workspace-spring\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3381261164.index
+\ezen12_Board (7)\src\main\java
+C:\workspace-spring\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1551989061.index
+\ezen12_Board (7)\src\main\java
 C:\workspace-spring\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3279230713.index
 \ezen09_Log4j_Tiles (4) (1)\src\main\java
 C:\workspace-spring\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\340080459.index
@@ -133,10 +139,10 @@ C:\workspace-spring\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\277064
 \ezen08_Spring_AnnotationEZEN\src\main\java
 C:\workspace-spring\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1717554314.index
 \ezen09_Log4j_Tiles (4) (1)\src\main\java
-C:\workspace-spring\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3566402573.index
-\ezenStore (2)\src\main\java
 C:\workspace-spring\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1862680293.index
 \ezen05_MybatisEZEN\src\main\java
+C:\workspace-spring\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3566402573.index
+\ezenStore (2)\src\main\java
 C:\workspace-spring\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2773529810.index
 \ezen05_Mybatis0704\src\main\java
 C:\workspace-spring\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\752346960.index
@@ -149,10 +155,12 @@ C:\workspace-spring\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\380177
 \ezen07_Spring_Transaction\src\main\java
 C:\workspace-spring\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1012524392.index
 \ezen05_Mybatis0704\src\main\java
-C:\workspace-spring\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1742813694.index
-\ezenStore (2)\src\main\java
+C:\workspace-spring\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1666259014.index
+\ezen12_Board (7)\src\main\java
 C:\workspace-spring\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2841738033.index
 \ezen06_Mybatis\src\main\java
+C:\workspace-spring\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1742813694.index
+\ezenStore (2)\src\main\java
 C:\workspace-spring\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1583709744.index
 \ezen09_Log4j_Tiles (3)\src\main\java
 C:\workspace-spring\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2008318174.index
