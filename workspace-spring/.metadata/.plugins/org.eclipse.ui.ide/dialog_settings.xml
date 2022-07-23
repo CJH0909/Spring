@@ -111,9 +111,10 @@
 		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
 		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
-			<item value="C:\workspace-spring\ezen12_Board (7)"/>
-			<item value="C:\workspace-spring\ezen12_Board"/>
 			<item value="C:\workspace-spring\ezenStore (2)"/>
+			<item value="C:\workspace-spring\ezen12_Board (7)"/>
+			<item value="C:\workspace-spring\ezen12_Board (8)"/>
+			<item value="C:\workspace-spring\ezen12_Board"/>
 			<item value="C:\workspace-spring\ezenStore2"/>
 			<item value="C:\workspace-spring\ezen11_Restful (2)"/>
 			<item value="C:\workspace-spring\ezen10_FileUD_Intercepter (2) (1)"/>
@@ -130,7 +131,6 @@
 			<item value="C:\workspace-spring\ezen06_Spring_MyBatis (2)"/>
 			<item value="C:\workspace-spring\ezen05_Mybatis0704"/>
 			<item value="C:\workspace-spring\ezen05_Mybatis (2)"/>
-			<item value="C:\workspace-spring\ezen05_MybatisEZEN"/>
 		</list>
 		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
 			<item value=""/>

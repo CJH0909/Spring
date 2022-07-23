@@ -114,7 +114,12 @@ public class BoardControllerImpl implements BoardController {
 		try {
 			
 			int articleNO = boardService.addNewArticle(articleMap);
-			
+			//articleMap key값 조회
+			Iterator<String> keys = articleMap.keySet().iterator();
+			while(keys.hasNext()) {
+				String key = keys.next();
+				System.out.println(key);
+			}
 			if (imageFileList != null && imageFileList.size() != 0) {
 				for (ImageDTO imageDTO : imageFileList) {
 					// temp => articleNO 이미지 이동.
@@ -172,7 +177,7 @@ public class BoardControllerImpl implements BoardController {
 				if (mFile.getSize() != 0) {
 					if (!file.exists()) {
 						file.getParentFile().mkdirs();		//경로에 해당하는 디렉토리를 생성
-						mFile.transferTo(new File(ARTICLE_IMAGE_REPO +"\\"+"tmp" +"\\"+ originalFilename)); //임시로
+						mFile.transferTo(new File(ARTICLE_IMAGE_REPO +"\\"+"temp" +"\\"+ originalFilename)); //임시로
 								//저장된 MultipartFile을 실제 파일로 전송
 					}
 				}

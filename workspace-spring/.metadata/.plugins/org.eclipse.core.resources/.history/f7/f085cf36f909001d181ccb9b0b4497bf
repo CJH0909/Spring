@@ -1,0 +1,33 @@
+package kr.co.test.board.service;
+
+import java.util.List;
+import java.util.Map;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Propagation;
+import org.springframework.transaction.annotation.Transactional;
+
+import kr.co.test.board.dao.ArticleDAO;
+import kr.co.test.board.dto.ArticleDTO;
+
+@Service("articleService")
+@Transactional(propagation = Propagation.REQUIRED)
+public class ArticleServiceImpl implements ArticleService{
+	
+	@Autowired
+	ArticleDAO articleDAO;
+	
+	@Override
+	public List<ArticleDTO> listArticles() throws Exception {
+		List<ArticleDTO> articleLists = articleDAO.selectAllArticlesList();
+		return null;
+	}
+	
+	@Override
+	public int addNewArticle(Map articleMap) throws Exception {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+	
+}

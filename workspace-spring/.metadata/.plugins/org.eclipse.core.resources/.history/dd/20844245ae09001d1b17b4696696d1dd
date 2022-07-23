@@ -1,0 +1,21 @@
+package kr.co.test.member.dto;
+
+import org.springframework.stereotype.Component;
+
+@Component("memberDTO")
+public class MemberDTO {
+	private String member_id;
+	private String member_pwd;
+	private String member_name;
+	private String member_gender;
+	private String member_nickname;
+	private String member_email1;
+	private String member_email2;
+	private String member_birth_y;
+	private String member_birth_m;
+	private String member_birth_d;
+	private String member_hp1;
+	private String member_hp2;
+	private String member_hp3;
+
+}

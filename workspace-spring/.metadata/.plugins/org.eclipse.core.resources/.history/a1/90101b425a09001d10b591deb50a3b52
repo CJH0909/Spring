@@ -1,0 +1,11 @@
+package kr.co.ezenStore.member.dao;
+
+
+public interface MemberDAO {
+
+	public String selectDuplicateCheck(String id);
+	public int insertMember(MemberDTO memberDTO);
+
+	
+
+}

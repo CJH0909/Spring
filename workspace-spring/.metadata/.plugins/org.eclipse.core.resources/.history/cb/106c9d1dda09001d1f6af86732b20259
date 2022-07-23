@@ -1,0 +1,17 @@
+package kr.co.test.member.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+
+import kr.co.test.member.dto.MemberDTO;
+import kr.co.test.member.service.MemberService;
+
+@Controller("memberController")
+public class MemberControllerImpl implements MemberController{
+	@Autowired
+	private MemberService memberService;
+	@Autowired
+	private MemberDTO memberDTO;
+	
+	
+}

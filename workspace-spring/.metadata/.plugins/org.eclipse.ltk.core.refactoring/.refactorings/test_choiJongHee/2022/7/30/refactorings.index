@@ -1,0 +1,26 @@
+1658469660132	Rename package 'test_choiJongHee.tiles'
+1658469858896	Delete element
+1658470857688	Rename package 'mybatis.mapper.modelConfig'
+1658470982518	Delete elements
+1658471071388	Rename package 'kr.co.test.common.interceptor'
+1658471104478	Rename package 'kr.co.test.dao.service.dto'
+1658471114552	Rename package 'kr.co.test.dao.service'
+1658471488328	Delete elements
+1658471554319	Delete element
+1658472055849	Delete element
+1658472899278	Move folder
+1658473383970	Rename resource 'modelConfgig.xml'
+1658474480660	Rename package 'mybatis.mapper'
+1658487656392	Delete element
+1658492079210	Rename resource 'ass'
+1658492080889	Move file
+1658504324484	Copy file
+1658504396415	Copy compilation unit
+1658504957869	Copy compilation unit
+1658506904519	Copy compilation unit
+1658516129278	Move file
+1658516139185	Move file
+1658517585676	Rename type 'ArticleDTO'
+1658517606448	Rename type 'boardDTO'
+1658519519527	Rename type 'BoardDTO'
+1658519540142	Rename type 'articleDAO'

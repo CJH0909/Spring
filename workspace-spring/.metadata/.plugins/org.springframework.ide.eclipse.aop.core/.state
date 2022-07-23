@@ -22,14 +22,17 @@
 <aop-reference advice-type="AROUND" bean="1:BeansModel|2:ezen09_Log4j_Tiles|3:src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml|7:beans:beans:9|8:memberService:9" bean-file="/ezen09_Log4j_Tiles/src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml" bean-start-line="9" factory-id="org.springframework.ide.eclipse.aop.core.aopReferenceElementFactory" file="/ezen09_Log4j_Tiles/src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml" source="=ezen09_Log4j_Tiles/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;kr.co.tiles.common.log{LoggingAdvice.java[LoggingAdvice~timeLog~QProceedingJoinPoint;" source-start-line="62" target="=ezen09_Log4j_Tiles/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;kr.co.tiles.member.service{MemberServiceImpl.java[MemberServiceImpl~addMember~QMemberDTO;" target-start-line="29"/>
 </aspect-definition>
 </aop-project>
+<aop-project name="test_ChoiJongHee"/>
 <aop-project name="ezen04_SpringMVC"/>
+<aop-project name="test13ChoiJongHee"/>
 <aop-project name="ezen01_hello"/>
 <aop-project name="ezen02_DI"/>
 <aop-project name="ezen03_AOP"/>
 <aop-project name="ezen05_Mybatis0704"/>
 <aop-project name="ezen08_Spring_AnnotationEZEN"/>
-<aop-project name="test"/>
 <aop-project name="ezen12_Board"/>
+<aop-project name="ezen12_Board (8)"/>
+<aop-project name="ezenStore (2)"/>
 <aop-project name="ezenStore"/>
 <aop-project name="ezen06_Spring_MyBatis"/>
 </aop-reference-model>

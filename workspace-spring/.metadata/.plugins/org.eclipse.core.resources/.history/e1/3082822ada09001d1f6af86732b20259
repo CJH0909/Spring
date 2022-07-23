@@ -1,0 +1,28 @@
+package kr.co.test.member.controller;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
+import org.springframework.stereotype.Controller;
+
+import kr.co.test.member.dto.MemberDTO;
+import kr.co.test.member.service.MemberService;
+
+@Controller("memberController")
+public class MemberControllerImpl implements MemberController{
+	@Autowired
+	private MemberService memberService;
+	@Autowired
+	private MemberDTO memberDTO;
+	
+	@Override
+	public ResponseEntity<MemberDTO> addMember(MemberDTO memberDTO, HttpServletRequest request,
+			HttpServletResponse response) throws Exception {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+	
+}

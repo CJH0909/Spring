@@ -41,4 +41,16 @@
 			WHERE MEMBER_ID = #{id}
 		]]>
 	</select>
+	<insert id="insertMember" parameterType="memberDTO">
+		<![CDATA[
+			INSERT INTO EZEN.TB_SHPPING_MEMBER
+			(MEMBER_ID, MEMBER_PW, MEMBER_NAME, MEMBER_GENDER, HP1, HP2, HP3, SMSSTS_YN
+			 , EMAIL1, EMAIL2, EMAILSTS_YN, ZIPCODE, ROADADDRESS, JIBUNADDRESS, NAMUJIADDRESS, 
+			 MEMBER_BIRTH_Y, MEMBER_BIRTH_M, MEMBER_BIRTH_D, MEMBER_BIRTH_GN, JOINDATE, DEL_YN)
+			VALUES(#{member_id}, #{member_pw}, #{member_name}, #{member_gender}
+			, #{hp1}, #{hp2}, #{hp}, #{smssts_yn}, #{email1}, #{email2}, #{emailsts_yn}, #{zipcode}, #{roadaddress}, #{jibunaddress}, #{namujiaddress}
+			, #{member_birth_y}, #{member_birth_m}, #{member_birth_d}, #{member_birth_gn}, sysdate
+			)
+		]]>
+	</insert>
 </mapper>

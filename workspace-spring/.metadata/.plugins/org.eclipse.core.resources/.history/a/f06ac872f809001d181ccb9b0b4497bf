@@ -1,0 +1,27 @@
+package kr.co.test.board.dao;
+
+import java.util.List;
+
+import org.apache.ibatis.session.SqlSession;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.dao.DataAccessException;
+import org.springframework.stereotype.Repository;
+
+import kr.co.test.board.dto.ArticleDTO;
+
+@Repository("articleDAO")
+public class ArticleDAOImpl implements ArticleDAO{
+	@Autowired
+	SqlSession sqlsession;
+	
+	@Override
+	public List<ArticleDTO> selectAllArticlesList() throws DataAccessException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	@Override
+	public int insertNewArticle(ArticleDTO articleDTO) throws DataAccessException {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+}

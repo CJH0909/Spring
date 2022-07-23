@@ -1,0 +1,38 @@
+package kr.co.board.member.dto;
+
+import java.sql.Date;
+/*member_id		varchar2(30) PRIMARY KEY
+,member_pwd		varchar2(30) NOT NULL
+,member_name 	varchar2(10) NOT NULL
+,member_gender 	varchar2(10) NOT NULL
+,member_nickname	varchar2(30) NOT NULL
+,member_email1	varchar2(30) NOT NULL
+,member_email2	varchar2(30) NOT NULL
+,member_birth_y varchar2(10) NOT NULL
+,member_birth_m	varchar2(10) NOT NULL
+,member_birth_d	varchar2(10) NOT NULL
+,member_hp1		varchar2(10) NOT null
+,member_hp2		varchar2(10) NOT null
+,member_hp3		varchar2(10) NOT NULL
+,joindate 		DATE DEFAULT sysdate*/
+
+import org.springframework.stereotype.Component;
+
+@Component("memberDTO")
+public class MemberDTO {
+	private String member_id;
+	private String member_pwd;
+	private String member_name;
+	private String member_gender;
+	private String member_nickname;
+	private String member_email1;
+	private String member_email2;
+	private String member_birth_y;
+	private String member_birth_m;
+	private String member_birth_d;
+	private String member_hp1;
+	private String member_hp2;
+	private String member_hp3;
+	private String joindate;
+	
+}

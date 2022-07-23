@@ -1,0 +1,5 @@
+package kr.co.test.board.controller;
+
+public class ArticleControllerImpl {
+
+}

@@ -1,0 +1,14 @@
+127.0.0.1 - - [21/Jul/2022:03:57:52 +0900] "GET / HTTP/1.1" 404 807
+0:0:0:0:0:0:0:1 - - [21/Jul/2022:03:57:53 +0900] "GET /board/ HTTP/1.1" 500 2115
+0:0:0:0:0:0:0:1 - - [21/Jul/2022:03:57:54 +0900] "GET /favicon.ico HTTP/1.1" 404 818
+0:0:0:0:0:0:0:1 - - [21/Jul/2022:03:57:56 +0900] "GET /board/main.do HTTP/1.1" 200 3390
+0:0:0:0:0:0:0:1 - - [21/Jul/2022:03:57:58 +0900] "GET /board/member/loginForm.do HTTP/1.1" 200 4186
+0:0:0:0:0:0:0:1 - - [21/Jul/2022:03:58:04 +0900] "POST /board/member/login.do HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [21/Jul/2022:03:58:04 +0900] "GET /board/main.do HTTP/1.1" 200 3438
+0:0:0:0:0:0:0:1 - - [21/Jul/2022:03:58:06 +0900] "GET /board/board/listArticles.do HTTP/1.1" 200 10584
+0:0:0:0:0:0:0:1 - - [21/Jul/2022:03:58:07 +0900] "GET /board/board/articleForm.do HTTP/1.1" 200 6185
+0:0:0:0:0:0:0:1 - - [21/Jul/2022:03:58:07 +0900] "GET /board/board/articleForm.do HTTP/1.1" 200 6185
+0:0:0:0:0:0:0:1 - - [21/Jul/2022:03:58:25 +0900] "POST /board/board/addNewArticle.do HTTP/1.1" 500 3718
+0:0:0:0:0:0:0:1 - - [21/Jul/2022:03:59:13 +0900] "POST /board/board/addNewArticle.do HTTP/1.1" 201 103
+0:0:0:0:0:0:0:1 - - [21/Jul/2022:03:59:14 +0900] "GET /board/board/listArticles.do HTTP/1.1" 200 11078
+0:0:0:0:0:0:0:1 - - [21/Jul/2022:04:31:12 +0900] "GET /board/board/viewArticle.do?articleNO=17 HTTP/1.1" 200 3766
