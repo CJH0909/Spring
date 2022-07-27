@@ -90,6 +90,8 @@ public class MemberControllerImpl extends MultiActionController implements Membe
 	@RequestMapping(value = "/member/*Form.do", method = RequestMethod.GET)
 	public ModelAndView form(@RequestParam(value = "result", required = false) String result,
 							@RequestParam(value = "action", required = false) String action,
+							@RequestParam(value = "parentNO", required = false) String parentNO,
+							@RequestParam(value = "groupNO", required = false) String groupNO,
 							HttpServletRequest request, HttpServletResponse response) throws Exception {
 		//String viewName = getViewName(request);
 		String viewName = (String) request.getAttribute("viewName");	//인터셉터에서 바인딩된 뷰이름 가져옴
@@ -97,9 +99,19 @@ public class MemberControllerImpl extends MultiActionController implements Membe
 		HttpSession session = request.getSession();
 		session.setAttribute("action", action);
 		
+		//답글쓰기로 로그인 시
+		if (parentNO != null) {
+			session.setAttribute("parentNO", parentNO);		//답글 쓰기 클릭시 부모글번호를 세션에 저장
+		}
+		
+		if (groupNO != null) {
+			session.setAttribute("groupNO", groupNO);		//답글 쓰기 클릭시 그룹글번호를 세션에 저장
+		}
+		
 		//db 연동 작업이 없는 입력창 요청시 뷰이름만 ModelAndView로 반환함
 		ModelAndView mav = new ModelAndView();
 		mav.setViewName(viewName);
+		mav.addObject("result", result);
 		return mav;
 	}	
 	
@@ -157,16 +169,20 @@ public class MemberControllerImpl extends MultiActionController implements Membe
 			session.setAttribute("isLogOn", true);					//세션에 로그인 상태를 true로 설정함
 			
 			String action = (String) session.getAttribute("action");  //로그인 성공시 세션에 저장된 action 값 가져옴
+			session.removeAttribute("action");
 			
 			if (action != null) {
 				if (action.equals("/board/articleForm.do")) {		
 					mav.setViewName("redirect:" + action);			  //action값을 뷰이름으로 지정해 글쓰기창으로 이동함
 				}
+				else if (action.equals("/board/replyForm.do")) {
+					mav.setViewName("redirect:" + action);
+				}
 			} else {
 				mav.setViewName("redirect:/main.do");
 			}
 				
-			session.removeAttribute("action");
+			
 			
 		} else {
 			rAttributes.addAttribute("result", "loginFailed");		//로그인 실패 시 실패 메시지를 로그인창 전달

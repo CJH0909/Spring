@@ -6,23 +6,23 @@
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value="selectNewArticleNO"/>
+		<item key="selection" value="Reply"/>
 		<list key="findhistory">
+			<item value="reply"/>
+			<item value="group"/>
+			<item value="view"/>
+			<item value="down"/>
+			<item value="imageFileNO"/>
+			<item value="removeCompleted"/>
+			<item value="tr_modEable"/>
 			<item value="selectNewArticleNO"/>
 			<item value="ArticleNO"/>
 			<item value="addNewArticleNO"/>
 			<item value="addNewArticle"/>
 			<item value="s"/>
 			<item value="tiles"/>
-			<item value="group"/>
 			<item value="spring-core"/>
 			<item value="spring-core&apos;"/>
-			<item value="spring-web"/>
-			<item value="core"/>
-			<item value="MimeType"/>
-			<item value="hp"/>
-			<item value="ezen"/>
-			<item value="imageFileNO"/>
 		</list>
 		<list key="replacehistory">
 		</list>

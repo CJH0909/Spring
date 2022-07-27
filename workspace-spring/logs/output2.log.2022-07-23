@@ -1,0 +1,777 @@
+[05:35:59][INFO ](ContextLoader.java:285)-Root WebApplicationContext: initialization started
+[05:35:59][INFO ](AbstractApplicationContext.java:510)-Refreshing Root WebApplicationContext: startup date [Sat Jul 23 05:35:59 KST 2022]; root of context hierarchy
+[05:35:59][INFO ](XmlBeanDefinitionReader.java:317)-Loading XML bean definitions from ServletContext resource [/WEB-INF/spring/action-mybatis.xml]
+[05:35:59][INFO ](PropertiesLoaderSupport.java:172)-Loading properties file from ServletContext resource [/WEB-INF/config/jdbc/jdbc.properties]
+[05:35:59][DEBUG](UiApplicationContextUtils.java:85)-Unable to locate ThemeSource with name 'themeSource': using default [org.springframework.ui.context.support.ResourceBundleThemeSource@950a833]
+[05:35:59][DEBUG](LogFactory.java:109)-Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+[05:35:59][DEBUG](PooledDataSource.java:363)-PooledDataSource forcefully closed/removed all connections.
+[05:35:59][DEBUG](PooledDataSource.java:363)-PooledDataSource forcefully closed/removed all connections.
+[05:35:59][DEBUG](PooledDataSource.java:363)-PooledDataSource forcefully closed/removed all connections.
+[05:35:59][DEBUG](PooledDataSource.java:363)-PooledDataSource forcefully closed/removed all connections.
+[05:36:00][DEBUG](Logger.java:49)-Parsed configuration file: 'class path resource [mybatis/model/modelConfig.xml]'
+[05:36:00][DEBUG](Logger.java:49)-Parsed mapper file: 'file [C:\workspace-spring\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ezen12_Board (8)\WEB-INF\classes\mybatis\mappers\board.xml]'
+[05:36:00][DEBUG](Logger.java:49)-Parsed mapper file: 'file [C:\workspace-spring\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ezen12_Board (8)\WEB-INF\classes\mybatis\mappers\member.xml]'
+[05:36:00][DEBUG](JndiTemplate.java:150)-Looking up JNDI object with name [java:comp/env/spring.liveBeansView.mbeanDomain]
+[05:36:00][DEBUG](JndiLocatorSupport.java:101)-Converted JNDI name [java:comp/env/spring.liveBeansView.mbeanDomain] not found - trying original name [spring.liveBeansView.mbeanDomain]. javax.naming.NameNotFoundException: Name [spring.liveBeansView.mbeanDomain]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.liveBeansView.mbeanDomain]을(를) 찾을 수 없습니다.
+[05:36:00][DEBUG](JndiTemplate.java:150)-Looking up JNDI object with name [spring.liveBeansView.mbeanDomain]
+[05:36:00][DEBUG](JndiPropertySource.java:90)-JNDI lookup for name [spring.liveBeansView.mbeanDomain] threw NamingException with message: Name [spring.liveBeansView.mbeanDomain]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.liveBeansView.mbeanDomain]을(를) 찾을 수 없습니다.. Returning null.
+[05:36:00][INFO ](ContextLoader.java:325)-Root WebApplicationContext: initialization completed in 1257 ms
+[05:36:00][INFO ](FrameworkServlet.java:484)-FrameworkServlet 'appServlet': initialization started
+[05:36:00][DEBUG](JndiTemplate.java:150)-Looking up JNDI object with name [java:comp/env/spring.profiles.active]
+[05:36:00][DEBUG](JndiLocatorSupport.java:101)-Converted JNDI name [java:comp/env/spring.profiles.active] not found - trying original name [spring.profiles.active]. javax.naming.NameNotFoundException: Name [spring.profiles.active]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.profiles.active]을(를) 찾을 수 없습니다.
+[05:36:00][DEBUG](JndiTemplate.java:150)-Looking up JNDI object with name [spring.profiles.active]
+[05:36:00][DEBUG](JndiPropertySource.java:90)-JNDI lookup for name [spring.profiles.active] threw NamingException with message: Name [spring.profiles.active]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.profiles.active]을(를) 찾을 수 없습니다.. Returning null.
+[05:36:00][DEBUG](JndiTemplate.java:150)-Looking up JNDI object with name [java:comp/env/spring.profiles.default]
+[05:36:00][DEBUG](JndiLocatorSupport.java:101)-Converted JNDI name [java:comp/env/spring.profiles.default] not found - trying original name [spring.profiles.default]. javax.naming.NameNotFoundException: Name [spring.profiles.default]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.profiles.default]을(를) 찾을 수 없습니다.
+[05:36:00][DEBUG](JndiTemplate.java:150)-Looking up JNDI object with name [spring.profiles.default]
+[05:36:00][DEBUG](JndiPropertySource.java:90)-JNDI lookup for name [spring.profiles.default] threw NamingException with message: Name [spring.profiles.default]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.profiles.default]을(를) 찾을 수 없습니다.. Returning null.
+[05:36:00][DEBUG](JndiTemplate.java:150)-Looking up JNDI object with name [java:comp/env/spring.profiles.default]
+[05:36:00][DEBUG](JndiLocatorSupport.java:101)-Converted JNDI name [java:comp/env/spring.profiles.default] not found - trying original name [spring.profiles.default]. javax.naming.NameNotFoundException: Name [spring.profiles.default]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.profiles.default]을(를) 찾을 수 없습니다.
+[05:36:00][DEBUG](JndiTemplate.java:150)-Looking up JNDI object with name [spring.profiles.default]
+[05:36:00][DEBUG](JndiPropertySource.java:90)-JNDI lookup for name [spring.profiles.default] threw NamingException with message: Name [spring.profiles.default]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.profiles.default]을(를) 찾을 수 없습니다.. Returning null.
+[05:36:00][INFO ](AbstractApplicationContext.java:510)-Refreshing WebApplicationContext for namespace 'appServlet-servlet': startup date [Sat Jul 23 05:36:00 KST 2022]; parent: Root WebApplicationContext
+[05:36:00][INFO ](XmlBeanDefinitionReader.java:317)-Loading XML bean definitions from ServletContext resource [/WEB-INF/spring/appServlet/servlet-context.xml]
+[05:36:01][INFO ](AutowiredAnnotationBeanPostProcessor.java:153)-JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[05:36:01][DEBUG](UiApplicationContextUtils.java:85)-Unable to locate ThemeSource with name 'themeSource': using default [org.springframework.ui.context.support.DelegatingThemeSource@5194394]
+[05:36:01][INFO ](AbstractHandlerMethodMapping.java:220)-Mapped "{[/board/*Form.do],methods=[GET || POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView kr.co.board.board.controller.BoardControllerImpl.form(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+[05:36:01][INFO ](AbstractHandlerMethodMapping.java:220)-Mapped "{[/board/viewArticle.do],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView kr.co.board.board.controller.BoardControllerImpl.viewArticle(int,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+[05:36:01][INFO ](AbstractHandlerMethodMapping.java:220)-Mapped "{[/board/addNewArticle.do],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity kr.co.board.board.controller.BoardControllerImpl.addNewArticle(org.springframework.web.multipart.MultipartHttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+[05:36:01][INFO ](AbstractHandlerMethodMapping.java:220)-Mapped "{[/board/modArticle.do],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity kr.co.board.board.controller.BoardControllerImpl.modArticle(org.springframework.web.multipart.MultipartHttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+[05:36:01][INFO ](AbstractHandlerMethodMapping.java:220)-Mapped "{[/board/listArticles.do],methods=[GET || POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView kr.co.board.board.controller.BoardControllerImpl.listArticles(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+[05:36:01][INFO ](AbstractHandlerMethodMapping.java:220)-Mapped "{[/download.do],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void kr.co.board.common.file.FileDownloadController.download(java.lang.String,java.lang.String,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+[05:36:01][INFO ](AbstractHandlerMethodMapping.java:220)-Mapped "{[/],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String kr.co.board.HomeController.home(java.util.Locale,org.springframework.ui.Model)
+[05:36:01][INFO ](AbstractHandlerMethodMapping.java:220)-Mapped "{[/main.do],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView kr.co.board.member.controller.MemberControllerImpl.main(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+[05:36:01][INFO ](AbstractHandlerMethodMapping.java:220)-Mapped "{[/member/*Form.do],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView kr.co.board.member.controller.MemberControllerImpl.form(java.lang.String,java.lang.String,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+[05:36:01][INFO ](AbstractHandlerMethodMapping.java:220)-Mapped "{[/member/login.do],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView kr.co.board.member.controller.MemberControllerImpl.login(kr.co.board.member.dto.MemberDTO,org.springframework.web.servlet.mvc.support.RedirectAttributes,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[05:36:01][INFO ](AbstractHandlerMethodMapping.java:220)-Mapped "{[/member/logout.do],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView kr.co.board.member.controller.MemberControllerImpl.logout(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+[05:36:01][INFO ](AbstractHandlerMethodMapping.java:220)-Mapped "{[/member/addMember.do],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView kr.co.board.member.controller.MemberControllerImpl.addMember(kr.co.board.member.dto.MemberDTO,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+[05:36:01][INFO ](AbstractHandlerMethodMapping.java:220)-Mapped "{[/member/removeMember.do],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView kr.co.board.member.controller.MemberControllerImpl.removeMember(java.lang.String,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+[05:36:01][INFO ](AbstractHandlerMethodMapping.java:220)-Mapped "{[/member/listMembers.do],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView kr.co.board.member.controller.MemberControllerImpl.listMembers(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+[05:36:02][INFO ](RequestMappingHandlerAdapter.java:523)-Looking for @ControllerAdvice: WebApplicationContext for namespace 'appServlet-servlet': startup date [Sat Jul 23 05:36:00 KST 2022]; parent: Root WebApplicationContext
+[05:36:02][INFO ](RequestMappingHandlerAdapter.java:523)-Looking for @ControllerAdvice: WebApplicationContext for namespace 'appServlet-servlet': startup date [Sat Jul 23 05:36:00 KST 2022]; parent: Root WebApplicationContext
+[05:36:02][INFO ](AbstractUrlHandlerMapping.java:315)-Mapped URL path [/resources/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+[05:36:02][DEBUG](Digester.java:2011)-register('-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN', 'jar:file:/C:/workspace-spring/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/ezen12_Board%20(8)/WEB-INF/lib/tiles-core-2.2.2.jar!/org/apache/tiles/resources/tiles-config_2_0.dtd'
+[05:36:02][DEBUG](Digester.java:2011)-register('-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN', 'jar:file:/C:/workspace-spring/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/ezen12_Board%20(8)/WEB-INF/lib/tiles-core-2.2.2.jar!/org/apache/tiles/resources/tiles-config_2_1.dtd'
+[05:36:02][INFO ](TilesAccess.java:113)-Publishing TilesContext for context: org.springframework.web.servlet.view.tiles2.SpringWildcardServletTilesApplicationContext
+[05:36:02][DEBUG](MultiActionController.java:316)-Found action method [public org.springframework.web.servlet.ModelAndView kr.co.board.member.controller.MemberControllerImpl.main(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception]
+[05:36:02][DEBUG](MultiActionController.java:316)-Found action method [public org.springframework.web.servlet.ModelAndView kr.co.board.member.controller.MemberControllerImpl.logout(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception]
+[05:36:02][DEBUG](MultiActionController.java:316)-Found action method [public org.springframework.web.servlet.ModelAndView kr.co.board.member.controller.MemberControllerImpl.listMembers(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception]
+[05:36:02][DEBUG](JndiTemplate.java:150)-Looking up JNDI object with name [java:comp/env/spring.liveBeansView.mbeanDomain]
+[05:36:02][DEBUG](JndiLocatorSupport.java:101)-Converted JNDI name [java:comp/env/spring.liveBeansView.mbeanDomain] not found - trying original name [spring.liveBeansView.mbeanDomain]. javax.naming.NameNotFoundException: Name [spring.liveBeansView.mbeanDomain]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.liveBeansView.mbeanDomain]을(를) 찾을 수 없습니다.
+[05:36:02][DEBUG](JndiTemplate.java:150)-Looking up JNDI object with name [spring.liveBeansView.mbeanDomain]
+[05:36:02][DEBUG](JndiPropertySource.java:90)-JNDI lookup for name [spring.liveBeansView.mbeanDomain] threw NamingException with message: Name [spring.liveBeansView.mbeanDomain]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.liveBeansView.mbeanDomain]을(를) 찾을 수 없습니다.. Returning null.
+[05:36:02][INFO ](FrameworkServlet.java:503)-FrameworkServlet 'appServlet': initialization completed in 2450 ms
+[05:36:08][INFO ](HomeController.java:27)-Welcome home! The client locale is ko_KR.
+[05:36:08][DEBUG](Digester.java:1451)-setDocumentLocator(com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser$LocatorProxy@32d8b004)
+[05:36:08][DEBUG](Digester.java:1485)-startDocument()
+[05:36:08][DEBUG](Digester.java:1680)-resolveEntity('-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN', 'http://tiles.apache.org/dtds/tiles-config_2_1.dtd')
+[05:36:08][DEBUG](Digester.java:1721)- Resolving to alternate DTD 'jar:file:/C:/workspace-spring/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/ezen12_Board%20(8)/WEB-INF/lib/tiles-core-2.2.2.jar!/org/apache/tiles/resources/tiles-config_2_1.dtd'
+[05:36:08][DEBUG](Digester.java:1520)-startElement(,tiles-definitions,tiles-definitions)
+[05:36:08][DEBUG](Digester.java:1527)-  Pushing body text ''
+[05:36:08][DEBUG](Digester.java:1546)-  New match='tiles-definitions'
+[05:36:08][DEBUG](Digester.java:1574)-  No rules found matching 'tiles-definitions'.
+[05:36:08][DEBUG](Digester.java:1397)-ignorableWhitespace(
+
+	)
+[05:36:08][DEBUG](Digester.java:1397)-ignorableWhitespace(
+	)
+[05:36:08][DEBUG](Digester.java:1520)-startElement(,definition,definition)
+[05:36:08][DEBUG](Digester.java:1527)-  Pushing body text ''
+[05:36:08][DEBUG](Digester.java:1546)-  New match='tiles-definitions/definition'
+[05:36:08][DEBUG](Digester.java:1561)-  Fire begin() for ObjectCreateRule[className=org.apache.tiles.Definition, attributeName=null]
+[05:36:08][DEBUG](ObjectCreateRule.java:200)-[ObjectCreateRule]{tiles-definitions/definition}New org.apache.tiles.Definition
+[05:36:08][DEBUG](Digester.java:1561)-  Fire begin() for org.apache.tiles.definition.digester.DigesterDefinitionsReader$FillDefinitionRule@f80baad
+[05:36:08][DEBUG](Digester.java:1561)-  Fire begin() for SetNextRule[methodName=addDefinition, paramType=org.apache.tiles.Definition]
+[05:36:08][DEBUG](Digester.java:1397)-ignorableWhitespace(
+		)
+[05:36:08][DEBUG](Digester.java:1520)-startElement(,put-attribute,put-attribute)
+[05:36:08][DEBUG](Digester.java:1527)-  Pushing body text ''
+[05:36:08][DEBUG](Digester.java:1546)-  New match='tiles-definitions/definition/put-attribute'
+[05:36:08][DEBUG](Digester.java:1561)-  Fire begin() for ObjectCreateRule[className=org.apache.tiles.Attribute, attributeName=null]
+[05:36:08][DEBUG](ObjectCreateRule.java:200)-[ObjectCreateRule]{tiles-definitions/definition/put-attribute}New org.apache.tiles.Attribute
+[05:36:08][DEBUG](Digester.java:1561)-  Fire begin() for org.apache.tiles.definition.digester.DigesterDefinitionsReader$FillAttributeRule@1ffaf40a
+[05:36:08][DEBUG](Digester.java:1561)-  Fire begin() for org.apache.tiles.definition.digester.DigesterDefinitionsReader$PutAttributeRule@3f0dd849
+[05:36:08][DEBUG](Digester.java:1561)-  Fire begin() for CallMethodRule[methodName=setBody, paramCount=0, paramTypes={java.lang.String}]
+[05:36:08][DEBUG](Digester.java:1274)-endElement(,put-attribute,put-attribute)
+[05:36:08][DEBUG](Digester.java:1277)-  match='tiles-definitions/definition/put-attribute'
+[05:36:08][DEBUG](Digester.java:1278)-  bodyText=''
+[05:36:08][DEBUG](Digester.java:1300)-  Fire body() for ObjectCreateRule[className=org.apache.tiles.Attribute, attributeName=null]
+[05:36:08][DEBUG](Digester.java:1300)-  Fire body() for org.apache.tiles.definition.digester.DigesterDefinitionsReader$FillAttributeRule@1ffaf40a
+[05:36:08][DEBUG](Digester.java:1300)-  Fire body() for org.apache.tiles.definition.digester.DigesterDefinitionsReader$PutAttributeRule@3f0dd849
+[05:36:08][DEBUG](Digester.java:1300)-  Fire body() for CallMethodRule[methodName=setBody, paramCount=0, paramTypes={java.lang.String}]
+[05:36:08][DEBUG](Digester.java:1320)-  Popping body text ''
+[05:36:08][DEBUG](Digester.java:1330)-  Fire end() for CallMethodRule[methodName=setBody, paramCount=0, paramTypes={java.lang.String}]
+[05:36:08][DEBUG](CallMethodRule.java:615)-[CallMethodRule]{tiles-definitions/definition/put-attribute} Call org.apache.tiles.Attribute.setBody(/java.lang.String)
+[05:36:08][DEBUG](Digester.java:1330)-  Fire end() for org.apache.tiles.definition.digester.DigesterDefinitionsReader$PutAttributeRule@3f0dd849
+[05:36:08][DEBUG](Digester.java:1330)-  Fire end() for org.apache.tiles.definition.digester.DigesterDefinitionsReader$FillAttributeRule@1ffaf40a
+[05:36:08][DEBUG](Digester.java:1330)-  Fire end() for ObjectCreateRule[className=org.apache.tiles.Attribute, attributeName=null]
+[05:36:08][DEBUG](ObjectCreateRule.java:219)-[ObjectCreateRule]{tiles-definitions/definition/put-attribute} Pop org.apache.tiles.Attribute
+[05:36:08][DEBUG](Digester.java:1397)-ignorableWhitespace(
+		)
+[05:36:08][DEBUG](Digester.java:1520)-startElement(,put-attribute,put-attribute)
+[05:36:08][DEBUG](Digester.java:1527)-  Pushing body text ''
+[05:36:08][DEBUG](Digester.java:1546)-  New match='tiles-definitions/definition/put-attribute'
+[05:36:08][DEBUG](Digester.java:1561)-  Fire begin() for ObjectCreateRule[className=org.apache.tiles.Attribute, attributeName=null]
+[05:36:08][DEBUG](ObjectCreateRule.java:200)-[ObjectCreateRule]{tiles-definitions/definition/put-attribute}New org.apache.tiles.Attribute
+[05:36:08][DEBUG](Digester.java:1561)-  Fire begin() for org.apache.tiles.definition.digester.DigesterDefinitionsReader$FillAttributeRule@1ffaf40a
+[05:36:08][DEBUG](Digester.java:1561)-  Fire begin() for org.apache.tiles.definition.digester.DigesterDefinitionsReader$PutAttributeRule@3f0dd849
+[05:36:08][DEBUG](Digester.java:1561)-  Fire begin() for CallMethodRule[methodName=setBody, paramCount=0, paramTypes={java.lang.String}]
+[05:36:08][DEBUG](Digester.java:1274)-endElement(,put-attribute,put-attribute)
+[05:36:08][DEBUG](Digester.java:1277)-  match='tiles-definitions/definition/put-attribute'
+[05:36:08][DEBUG](Digester.java:1278)-  bodyText=''
+[05:36:08][DEBUG](Digester.java:1300)-  Fire body() for ObjectCreateRule[className=org.apache.tiles.Attribute, attributeName=null]
+[05:36:08][DEBUG](Digester.java:1300)-  Fire body() for org.apache.tiles.definition.digester.DigesterDefinitionsReader$FillAttributeRule@1ffaf40a
+[05:36:08][DEBUG](Digester.java:1300)-  Fire body() for org.apache.tiles.definition.digester.DigesterDefinitionsReader$PutAttributeRule@3f0dd849
+[05:36:08][DEBUG](Digester.java:1300)-  Fire body() for CallMethodRule[methodName=setBody, paramCount=0, paramTypes={java.lang.String}]
+[05:36:08][DEBUG](Digester.java:1320)-  Popping body text ''
+[05:36:08][DEBUG](Digester.java:1330)-  Fire end() for CallMethodRule[methodName=setBody, paramCount=0, paramTypes={java.lang.String}]
+[05:36:08][DEBUG](CallMethodRule.java:615)-[CallMethodRule]{tiles-definitions/definition/put-attribute} Call org.apache.tiles.Attribute.setBody(/java.lang.String)
+[05:36:08][DEBUG](Digester.java:1330)-  Fire end() for org.apache.tiles.definition.digester.DigesterDefinitionsReader$PutAttributeRule@3f0dd849
+[05:36:08][DEBUG](Digester.java:1330)-  Fire end() for org.apache.tiles.definition.digester.DigesterDefinitionsReader$FillAttributeRule@1ffaf40a
+[05:36:08][DEBUG](Digester.java:1330)-  Fire end() for ObjectCreateRule[className=org.apache.tiles.Attribute, attributeName=null]
+[05:36:08][DEBUG](ObjectCreateRule.java:219)-[ObjectCreateRule]{tiles-definitions/definition/put-attribute} Pop org.apache.tiles.Attribute
+[05:36:08][DEBUG](Digester.java:1397)-ignorableWhitespace( )
+[05:36:08][DEBUG](Digester.java:1397)-ignorableWhitespace(
+		)
+[05:36:08][DEBUG](Digester.java:1520)-startElement(,put-attribute,put-attribute)
+[05:36:08][DEBUG](Digester.java:1527)-  Pushing body text ''
+[05:36:08][DEBUG](Digester.java:1546)-  New match='tiles-definitions/definition/put-attribute'
+[05:36:08][DEBUG](Digester.java:1561)-  Fire begin() for ObjectCreateRule[className=org.apache.tiles.Attribute, attributeName=null]
+[05:36:08][DEBUG](ObjectCreateRule.java:200)-[ObjectCreateRule]{tiles-definitions/definition/put-attribute}New org.apache.tiles.Attribute
+[05:36:08][DEBUG](Digester.java:1561)-  Fire begin() for org.apache.tiles.definition.digester.DigesterDefinitionsReader$FillAttributeRule@1ffaf40a
+[05:36:08][DEBUG](Digester.java:1561)-  Fire begin() for org.apache.tiles.definition.digester.DigesterDefinitionsReader$PutAttributeRule@3f0dd849
+[05:36:08][DEBUG](Digester.java:1561)-  Fire begin() for CallMethodRule[methodName=setBody, paramCount=0, paramTypes={java.lang.String}]
+[05:36:08][DEBUG](Digester.java:1274)-endElement(,put-attribute,put-attribute)
+[05:36:08][DEBUG](Digester.java:1277)-  match='tiles-definitions/definition/put-attribute'
+[05:36:08][DEBUG](Digester.java:1278)-  bodyText=''
+[05:36:08][DEBUG](Digester.java:1300)-  Fire body() for ObjectCreateRule[className=org.apache.tiles.Attribute, attributeName=null]
+[05:36:08][DEBUG](Digester.java:1300)-  Fire body() for org.apache.tiles.definition.digester.DigesterDefinitionsReader$FillAttributeRule@1ffaf40a
+[05:36:08][DEBUG](Digester.java:1300)-  Fire body() for org.apache.tiles.definition.digester.DigesterDefinitionsReader$PutAttributeRule@3f0dd849
+[05:36:08][DEBUG](Digester.java:1300)-  Fire body() for CallMethodRule[methodName=setBody, paramCount=0, paramTypes={java.lang.String}]
+[05:36:08][DEBUG](Digester.java:1320)-  Popping body text ''
+[05:36:08][DEBUG](Digester.java:1330)-  Fire end() for CallMethodRule[methodName=setBody, paramCount=0, paramTypes={java.lang.String}]
+[05:36:08][DEBUG](CallMethodRule.java:615)-[CallMethodRule]{tiles-definitions/definition/put-attribute} Call org.apache.tiles.Attribute.setBody(/java.lang.String)
+[05:36:08][DEBUG](Digester.java:1330)-  Fire end() for org.apache.tiles.definition.digester.DigesterDefinitionsReader$PutAttributeRule@3f0dd849
+[05:36:08][DEBUG](Digester.java:1330)-  Fire end() for org.apache.tiles.definition.digester.DigesterDefinitionsReader$FillAttributeRule@1ffaf40a
+[05:36:08][DEBUG](Digester.java:1330)-  Fire end() for ObjectCreateRule[className=org.apache.tiles.Attribute, attributeName=null]
+[05:36:08][DEBUG](ObjectCreateRule.java:219)-[ObjectCreateRule]{tiles-definitions/definition/put-attribute} Pop org.apache.tiles.Attribute
+[05:36:08][DEBUG](Digester.java:1397)-ignorableWhitespace( )
+[05:36:08][DEBUG](Digester.java:1397)-ignorableWhitespace(
+		)
+[05:36:08][DEBUG](Digester.java:1520)-startElement(,put-attribute,put-attribute)
+[05:36:08][DEBUG](Digester.java:1527)-  Pushing body text ''
+[05:36:08][DEBUG](Digester.java:1546)-  New match='tiles-definitions/definition/put-attribute'
+[05:36:08][DEBUG](Digester.java:1561)-  Fire begin() for ObjectCreateRule[className=org.apache.tiles.Attribute, attributeName=null]
+[05:36:08][DEBUG](ObjectCreateRule.java:200)-[ObjectCreateRule]{tiles-definitions/definition/put-attribute}New org.apache.tiles.Attribute
+[05:36:08][DEBUG](Digester.java:1561)-  Fire begin() for org.apache.tiles.definition.digester.DigesterDefinitionsReader$FillAttributeRule@1ffaf40a
+[05:36:08][DEBUG](Digester.java:1561)-  Fire begin() for org.apache.tiles.definition.digester.DigesterDefinitionsReader$PutAttributeRule@3f0dd849
+[05:36:08][DEBUG](Digester.java:1561)-  Fire begin() for CallMethodRule[methodName=setBody, paramCount=0, paramTypes={java.lang.String}]
+[05:36:08][DEBUG](Digester.java:1274)-endElement(,put-attribute,put-attribute)
+[05:36:08][DEBUG](Digester.java:1277)-  match='tiles-definitions/definition/put-attribute'
+[05:36:08][DEBUG](Digester.java:1278)-  bodyText=''
+[05:36:08][DEBUG](Digester.java:1300)-  Fire body() for ObjectCreateRule[className=org.apache.tiles.Attribute, attributeName=null]
+[05:36:08][DEBUG](Digester.java:1300)-  Fire body() for org.apache.tiles.definition.digester.DigesterDefinitionsReader$FillAttributeRule@1ffaf40a
+[05:36:08][DEBUG](Digester.java:1300)-  Fire body() for org.apache.tiles.definition.digester.DigesterDefinitionsReader$PutAttributeRule@3f0dd849
+[05:36:08][DEBUG](Digester.java:1300)-  Fire body() for CallMethodRule[methodName=setBody, paramCount=0, paramTypes={java.lang.String}]
+[05:36:08][DEBUG](Digester.java:1320)-  Popping body text ''
+[05:36:08][DEBUG](Digester.java:1330)-  Fire end() for CallMethodRule[methodName=setBody, paramCount=0, paramTypes={java.lang.String}]
+[05:36:08][DEBUG](CallMethodRule.java:615)-[CallMethodRule]{tiles-definitions/definition/put-attribute} Call org.apache.tiles.Attribute.setBody(/java.lang.String)
+[05:36:08][DEBUG](Digester.java:1330)-  Fire end() for org.apache.tiles.definition.digester.DigesterDefinitionsReader$PutAttributeRule@3f0dd849
+[05:36:08][DEBUG](Digester.java:1330)-  Fire end() for org.apache.tiles.definition.digester.DigesterDefinitionsReader$FillAttributeRule@1ffaf40a
+[05:36:08][DEBUG](Digester.java:1330)-  Fire end() for ObjectCreateRule[className=org.apache.tiles.Attribute, attributeName=null]
+[05:36:08][DEBUG](ObjectCreateRule.java:219)-[ObjectCreateRule]{tiles-definitions/definition/put-attribute} Pop org.apache.tiles.Attribute
+[05:36:08][DEBUG](Digester.java:1397)-ignorableWhitespace(
+		)
+[05:36:08][DEBUG](Digester.java:1520)-startElement(,put-attribute,put-attribute)
+[05:36:08][DEBUG](Digester.java:1527)-  Pushing body text ''
+[05:36:08][DEBUG](Digester.java:1546)-  New match='tiles-definitions/definition/put-attribute'
+[05:36:08][DEBUG](Digester.java:1561)-  Fire begin() for ObjectCreateRule[className=org.apache.tiles.Attribute, attributeName=null]
+[05:36:08][DEBUG](ObjectCreateRule.java:200)-[ObjectCreateRule]{tiles-definitions/definition/put-attribute}New org.apache.tiles.Attribute
+[05:36:08][DEBUG](Digester.java:1561)-  Fire begin() for org.apache.tiles.definition.digester.DigesterDefinitionsReader$FillAttributeRule@1ffaf40a
+[05:36:08][DEBUG](Digester.java:1561)-  Fire begin() for org.apache.tiles.definition.digester.DigesterDefinitionsReader$PutAttributeRule@3f0dd849
+[05:36:08][DEBUG](Digester.java:1561)-  Fire begin() for CallMethodRule[methodName=setBody, paramCount=0, paramTypes={java.lang.String}]
+[05:36:08][DEBUG](Digester.java:1274)-endElement(,put-attribute,put-attribute)
+[05:36:08][DEBUG](Digester.java:1277)-  match='tiles-definitions/definition/put-attribute'
+[05:36:08][DEBUG](Digester.java:1278)-  bodyText=''
+[05:36:08][DEBUG](Digester.java:1300)-  Fire body() for ObjectCreateRule[className=org.apache.tiles.Attribute, attributeName=null]
+[05:36:08][DEBUG](Digester.java:1300)-  Fire body() for org.apache.tiles.definition.digester.DigesterDefinitionsReader$FillAttributeRule@1ffaf40a
+[05:36:08][DEBUG](Digester.java:1300)-  Fire body() for org.apache.tiles.definition.digester.DigesterDefinitionsReader$PutAttributeRule@3f0dd849
+[05:36:08][DEBUG](Digester.java:1300)-  Fire body() for CallMethodRule[methodName=setBody, paramCount=0, paramTypes={java.lang.String}]
+[05:36:08][DEBUG](Digester.java:1320)-  Popping body text ''
+[05:36:08][DEBUG](Digester.java:1330)-  Fire end() for CallMethodRule[methodName=setBody, paramCount=0, paramTypes={java.lang.String}]
+[05:36:08][DEBUG](CallMethodRule.java:615)-[CallMethodRule]{tiles-definitions/definition/put-attribute} Call org.apache.tiles.Attribute.setBody(/java.lang.String)
+[05:36:08][DEBUG](Digester.java:1330)-  Fire end() for org.apache.tiles.definition.digester.DigesterDefinitionsReader$PutAttributeRule@3f0dd849
+[05:36:08][DEBUG](Digester.java:1330)-  Fire end() for org.apache.tiles.definition.digester.DigesterDefinitionsReader$FillAttributeRule@1ffaf40a
+[05:36:08][DEBUG](Digester.java:1330)-  Fire end() for ObjectCreateRule[className=org.apache.tiles.Attribute, attributeName=null]
+[05:36:08][DEBUG](ObjectCreateRule.java:219)-[ObjectCreateRule]{tiles-definitions/definition/put-attribute} Pop org.apache.tiles.Attribute
+[05:36:08][DEBUG](Digester.java:1397)-ignorableWhitespace(
+	)
+[05:36:08][DEBUG](Digester.java:1274)-endElement(,definition,definition)
+[05:36:08][DEBUG](Digester.java:1277)-  match='tiles-definitions/definition'
+[05:36:08][DEBUG](Digester.java:1278)-  bodyText=''
+[05:36:08][DEBUG](Digester.java:1300)-  Fire body() for ObjectCreateRule[className=org.apache.tiles.Definition, attributeName=null]
+[05:36:08][DEBUG](Digester.java:1300)-  Fire body() for org.apache.tiles.definition.digester.DigesterDefinitionsReader$FillDefinitionRule@f80baad
+[05:36:08][DEBUG](Digester.java:1300)-  Fire body() for SetNextRule[methodName=addDefinition, paramType=org.apache.tiles.Definition]
+[05:36:08][DEBUG](Digester.java:1320)-  Popping body text ''
+[05:36:08][DEBUG](Digester.java:1330)-  Fire end() for SetNextRule[methodName=addDefinition, paramType=org.apache.tiles.Definition]
+[05:36:08][DEBUG](SetNextRule.java:195)-[SetNextRule]{tiles-definitions/definition} Call org.apache.tiles.definition.digester.DigesterDefinitionsReader.addDefinition({name=baseLayout, template=/WEB-INF/views/common/layout.jsp, role=null, preparerInstance=null, attributes={side=/WEB-INF/views/common/side.jsp, footer=/WEB-INF/views/common/footer.jsp, header=/WEB-INF/views/common/header.jsp, title=, body=}})
+[05:36:08][DEBUG](Digester.java:1330)-  Fire end() for org.apache.tiles.definition.digester.DigesterDefinitionsReader$FillDefinitionRule@f80baad
+[05:36:08][DEBUG](Digester.java:1330)-  Fire end() for ObjectCreateRule[className=org.apache.tiles.Definition, attributeName=null]
+[05:36:08][DEBUG](ObjectCreateRule.java:219)-[ObjectCreateRule]{tiles-definitions/definition} Pop org.apache.tiles.Definition
+[05:36:08][DEBUG](Digester.java:1397)-ignorableWhitespace(
+	
+	)
+[05:36:08][DEBUG](Digester.java:1397)-ignorableWhitespace(			)
+[05:36:08][DEBUG](Digester.java:1397)-ignorableWhitespace(	
+	)
+[05:36:08][DEBUG](Digester.java:1520)-startElement(,definition,definition)
+[05:36:08][DEBUG](Digester.java:1527)-  Pushing body text ''
+[05:36:08][DEBUG](Digester.java:1546)-  New match='tiles-definitions/definition'
+[05:36:08][DEBUG](Digester.java:1561)-  Fire begin() for ObjectCreateRule[className=org.apache.tiles.Definition, attributeName=null]
+[05:36:08][DEBUG](ObjectCreateRule.java:200)-[ObjectCreateRule]{tiles-definitions/definition}New org.apache.tiles.Definition
+[05:36:08][DEBUG](Digester.java:1561)-  Fire begin() for org.apache.tiles.definition.digester.DigesterDefinitionsReader$FillDefinitionRule@f80baad
+[05:36:08][DEBUG](Digester.java:1561)-  Fire begin() for SetNextRule[methodName=addDefinition, paramType=org.apache.tiles.Definition]
+[05:36:08][DEBUG](Digester.java:1397)-ignorableWhitespace(
+		)
+[05:36:08][DEBUG](Digester.java:1520)-startElement(,put-attribute,put-attribute)
+[05:36:08][DEBUG](Digester.java:1527)-  Pushing body text ''
+[05:36:08][DEBUG](Digester.java:1546)-  New match='tiles-definitions/definition/put-attribute'
+[05:36:08][DEBUG](Digester.java:1561)-  Fire begin() for ObjectCreateRule[className=org.apache.tiles.Attribute, attributeName=null]
+[05:36:08][DEBUG](ObjectCreateRule.java:200)-[ObjectCreateRule]{tiles-definitions/definition/put-attribute}New org.apache.tiles.Attribute
+[05:36:08][DEBUG](Digester.java:1561)-  Fire begin() for org.apache.tiles.definition.digester.DigesterDefinitionsReader$FillAttributeRule@1ffaf40a
+[05:36:08][DEBUG](Digester.java:1561)-  Fire begin() for org.apache.tiles.definition.digester.DigesterDefinitionsReader$PutAttributeRule@3f0dd849
+[05:36:08][DEBUG](Digester.java:1561)-  Fire begin() for CallMethodRule[methodName=setBody, paramCount=0, paramTypes={java.lang.String}]
+[05:36:08][DEBUG](Digester.java:1274)-endElement(,put-attribute,put-attribute)
+[05:36:08][DEBUG](Digester.java:1277)-  match='tiles-definitions/definition/put-attribute'
+[05:36:08][DEBUG](Digester.java:1278)-  bodyText=''
+[05:36:08][DEBUG](Digester.java:1300)-  Fire body() for ObjectCreateRule[className=org.apache.tiles.Attribute, attributeName=null]
+[05:36:08][DEBUG](Digester.java:1300)-  Fire body() for org.apache.tiles.definition.digester.DigesterDefinitionsReader$FillAttributeRule@1ffaf40a
+[05:36:08][DEBUG](Digester.java:1300)-  Fire body() for org.apache.tiles.definition.digester.DigesterDefinitionsReader$PutAttributeRule@3f0dd849
+[05:36:08][DEBUG](Digester.java:1300)-  Fire body() for CallMethodRule[methodName=setBody, paramCount=0, paramTypes={java.lang.String}]
+[05:36:08][DEBUG](Digester.java:1320)-  Popping body text ''
+[05:36:08][DEBUG](Digester.java:1330)-  Fire end() for CallMethodRule[methodName=setBody, paramCount=0, paramTypes={java.lang.String}]
+[05:36:08][DEBUG](CallMethodRule.java:615)-[CallMethodRule]{tiles-definitions/definition/put-attribute} Call org.apache.tiles.Attribute.setBody(/java.lang.String)
+[05:36:08][DEBUG](Digester.java:1330)-  Fire end() for org.apache.tiles.definition.digester.DigesterDefinitionsReader$PutAttributeRule@3f0dd849
+[05:36:08][DEBUG](Digester.java:1330)-  Fire end() for org.apache.tiles.definition.digester.DigesterDefinitionsReader$FillAttributeRule@1ffaf40a
+[05:36:08][DEBUG](Digester.java:1330)-  Fire end() for ObjectCreateRule[className=org.apache.tiles.Attribute, attributeName=null]
+[05:36:08][DEBUG](ObjectCreateRule.java:219)-[ObjectCreateRule]{tiles-definitions/definition/put-attribute} Pop org.apache.tiles.Attribute
+[05:36:08][DEBUG](Digester.java:1397)-ignorableWhitespace(
+		)
+[05:36:08][DEBUG](Digester.java:1520)-startElement(,put-attribute,put-attribute)
+[05:36:08][DEBUG](Digester.java:1527)-  Pushing body text ''
+[05:36:08][DEBUG](Digester.java:1546)-  New match='tiles-definitions/definition/put-attribute'
+[05:36:08][DEBUG](Digester.java:1561)-  Fire begin() for ObjectCreateRule[className=org.apache.tiles.Attribute, attributeName=null]
+[05:36:08][DEBUG](ObjectCreateRule.java:200)-[ObjectCreateRule]{tiles-definitions/definition/put-attribute}New org.apache.tiles.Attribute
+[05:36:08][DEBUG](Digester.java:1561)-  Fire begin() for org.apache.tiles.definition.digester.DigesterDefinitionsReader$FillAttributeRule@1ffaf40a
+[05:36:08][DEBUG](Digester.java:1561)-  Fire begin() for org.apache.tiles.definition.digester.DigesterDefinitionsReader$PutAttributeRule@3f0dd849
+[05:36:08][DEBUG](Digester.java:1561)-  Fire begin() for CallMethodRule[methodName=setBody, paramCount=0, paramTypes={java.lang.String}]
+[05:36:08][DEBUG](Digester.java:1274)-endElement(,put-attribute,put-attribute)
+[05:36:08][DEBUG](Digester.java:1277)-  match='tiles-definitions/definition/put-attribute'
+[05:36:08][DEBUG](Digester.java:1278)-  bodyText=''
+[05:36:08][DEBUG](Digester.java:1300)-  Fire body() for ObjectCreateRule[className=org.apache.tiles.Attribute, attributeName=null]
+[05:36:08][DEBUG](Digester.java:1300)-  Fire body() for org.apache.tiles.definition.digester.DigesterDefinitionsReader$FillAttributeRule@1ffaf40a
+[05:36:08][DEBUG](Digester.java:1300)-  Fire body() for org.apache.tiles.definition.digester.DigesterDefinitionsReader$PutAttributeRule@3f0dd849
+[05:36:08][DEBUG](Digester.java:1300)-  Fire body() for CallMethodRule[methodName=setBody, paramCount=0, paramTypes={java.lang.String}]
+[05:36:08][DEBUG](Digester.java:1320)-  Popping body text ''
+[05:36:08][DEBUG](Digester.java:1330)-  Fire end() for CallMethodRule[methodName=setBody, paramCount=0, paramTypes={java.lang.String}]
+[05:36:08][DEBUG](CallMethodRule.java:615)-[CallMethodRule]{tiles-definitions/definition/put-attribute} Call org.apache.tiles.Attribute.setBody(/java.lang.String)
+[05:36:08][DEBUG](Digester.java:1330)-  Fire end() for org.apache.tiles.definition.digester.DigesterDefinitionsReader$PutAttributeRule@3f0dd849
+[05:36:08][DEBUG](Digester.java:1330)-  Fire end() for org.apache.tiles.definition.digester.DigesterDefinitionsReader$FillAttributeRule@1ffaf40a
+[05:36:08][DEBUG](Digester.java:1330)-  Fire end() for ObjectCreateRule[className=org.apache.tiles.Attribute, attributeName=null]
+[05:36:08][DEBUG](ObjectCreateRule.java:219)-[ObjectCreateRule]{tiles-definitions/definition/put-attribute} Pop org.apache.tiles.Attribute
+[05:36:08][DEBUG](Digester.java:1397)-ignorableWhitespace(
+	)
+[05:36:08][DEBUG](Digester.java:1274)-endElement(,definition,definition)
+[05:36:08][DEBUG](Digester.java:1277)-  match='tiles-definitions/definition'
+[05:36:08][DEBUG](Digester.java:1278)-  bodyText=''
+[05:36:08][DEBUG](Digester.java:1300)-  Fire body() for ObjectCreateRule[className=org.apache.tiles.Definition, attributeName=null]
+[05:36:08][DEBUG](Digester.java:1300)-  Fire body() for org.apache.tiles.definition.digester.DigesterDefinitionsReader$FillDefinitionRule@f80baad
+[05:36:08][DEBUG](Digester.java:1300)-  Fire body() for SetNextRule[methodName=addDefinition, paramType=org.apache.tiles.Definition]
+[05:36:08][DEBUG](Digester.java:1320)-  Popping body text ''
+[05:36:08][DEBUG](Digester.java:1330)-  Fire end() for SetNextRule[methodName=addDefinition, paramType=org.apache.tiles.Definition]
+[05:36:08][DEBUG](SetNextRule.java:195)-[SetNextRule]{tiles-definitions/definition} Call org.apache.tiles.definition.digester.DigesterDefinitionsReader.addDefinition({name=main, template=null, role=null, preparerInstance=null, attributes={title=메인페이지, body=/WEB-INF/views/main.jsp}})
+[05:36:08][DEBUG](Digester.java:1330)-  Fire end() for org.apache.tiles.definition.digester.DigesterDefinitionsReader$FillDefinitionRule@f80baad
+[05:36:08][DEBUG](Digester.java:1330)-  Fire end() for ObjectCreateRule[className=org.apache.tiles.Definition, attributeName=null]
+[05:36:08][DEBUG](ObjectCreateRule.java:219)-[ObjectCreateRule]{tiles-definitions/definition} Pop org.apache.tiles.Definition
+[05:36:08][DEBUG](Digester.java:1397)-ignorableWhitespace(
+	
+	)
+[05:36:08][DEBUG](Digester.java:1397)-ignorableWhitespace(		)
+[05:36:08][DEBUG](Digester.java:1397)-ignorableWhitespace(	
+	)
+[05:36:08][DEBUG](Digester.java:1520)-startElement(,definition,definition)
+[05:36:08][DEBUG](Digester.java:1527)-  Pushing body text ''
+[05:36:08][DEBUG](Digester.java:1546)-  New match='tiles-definitions/definition'
+[05:36:08][DEBUG](Digester.java:1561)-  Fire begin() for ObjectCreateRule[className=org.apache.tiles.Definition, attributeName=null]
+[05:36:08][DEBUG](ObjectCreateRule.java:200)-[ObjectCreateRule]{tiles-definitions/definition}New org.apache.tiles.Definition
+[05:36:08][DEBUG](Digester.java:1561)-  Fire begin() for org.apache.tiles.definition.digester.DigesterDefinitionsReader$FillDefinitionRule@f80baad
+[05:36:08][DEBUG](Digester.java:1561)-  Fire begin() for SetNextRule[methodName=addDefinition, paramType=org.apache.tiles.Definition]
+[05:36:08][DEBUG](Digester.java:1397)-ignorableWhitespace(
+		)
+[05:36:08][DEBUG](Digester.java:1520)-startElement(,put-attribute,put-attribute)
+[05:36:08][DEBUG](Digester.java:1527)-  Pushing body text ''
+[05:36:08][DEBUG](Digester.java:1546)-  New match='tiles-definitions/definition/put-attribute'
+[05:36:08][DEBUG](Digester.java:1561)-  Fire begin() for ObjectCreateRule[className=org.apache.tiles.Attribute, attributeName=null]
+[05:36:08][DEBUG](ObjectCreateRule.java:200)-[ObjectCreateRule]{tiles-definitions/definition/put-attribute}New org.apache.tiles.Attribute
+[05:36:08][DEBUG](Digester.java:1561)-  Fire begin() for org.apache.tiles.definition.digester.DigesterDefinitionsReader$FillAttributeRule@1ffaf40a
+[05:36:08][DEBUG](Digester.java:1561)-  Fire begin() for org.apache.tiles.definition.digester.DigesterDefinitionsReader$PutAttributeRule@3f0dd849
+[05:36:08][DEBUG](Digester.java:1561)-  Fire begin() for CallMethodRule[methodName=setBody, paramCount=0, paramTypes={java.lang.String}]
+[05:36:08][DEBUG](Digester.java:1274)-endElement(,put-attribute,put-attribute)
+[05:36:08][DEBUG](Digester.java:1277)-  match='tiles-definitions/definition/put-attribute'
+[05:36:08][DEBUG](Digester.java:1278)-  bodyText=''
+[05:36:08][DEBUG](Digester.java:1300)-  Fire body() for ObjectCreateRule[className=org.apache.tiles.Attribute, attributeName=null]
+[05:36:08][DEBUG](Digester.java:1300)-  Fire body() for org.apache.tiles.definition.digester.DigesterDefinitionsReader$FillAttributeRule@1ffaf40a
+[05:36:08][DEBUG](Digester.java:1300)-  Fire body() for org.apache.tiles.definition.digester.DigesterDefinitionsReader$PutAttributeRule@3f0dd849
+[05:36:08][DEBUG](Digester.java:1300)-  Fire body() for CallMethodRule[methodName=setBody, paramCount=0, paramTypes={java.lang.String}]
+[05:36:08][DEBUG](Digester.java:1320)-  Popping body text ''
+[05:36:08][DEBUG](Digester.java:1330)-  Fire end() for CallMethodRule[methodName=setBody, paramCount=0, paramTypes={java.lang.String}]
+[05:36:08][DEBUG](CallMethodRule.java:615)-[CallMethodRule]{tiles-definitions/definition/put-attribute} Call org.apache.tiles.Attribute.setBody(/java.lang.String)
+[05:36:08][DEBUG](Digester.java:1330)-  Fire end() for org.apache.tiles.definition.digester.DigesterDefinitionsReader$PutAttributeRule@3f0dd849
+[05:36:08][DEBUG](Digester.java:1330)-  Fire end() for org.apache.tiles.definition.digester.DigesterDefinitionsReader$FillAttributeRule@1ffaf40a
+[05:36:08][DEBUG](Digester.java:1330)-  Fire end() for ObjectCreateRule[className=org.apache.tiles.Attribute, attributeName=null]
+[05:36:08][DEBUG](ObjectCreateRule.java:219)-[ObjectCreateRule]{tiles-definitions/definition/put-attribute} Pop org.apache.tiles.Attribute
+[05:36:08][DEBUG](Digester.java:1397)-ignorableWhitespace(		)
+[05:36:08][DEBUG](Digester.java:1397)-ignorableWhitespace(
+		)
+[05:36:08][DEBUG](Digester.java:1520)-startElement(,put-attribute,put-attribute)
+[05:36:08][DEBUG](Digester.java:1527)-  Pushing body text ''
+[05:36:08][DEBUG](Digester.java:1546)-  New match='tiles-definitions/definition/put-attribute'
+[05:36:08][DEBUG](Digester.java:1561)-  Fire begin() for ObjectCreateRule[className=org.apache.tiles.Attribute, attributeName=null]
+[05:36:08][DEBUG](ObjectCreateRule.java:200)-[ObjectCreateRule]{tiles-definitions/definition/put-attribute}New org.apache.tiles.Attribute
+[05:36:08][DEBUG](Digester.java:1561)-  Fire begin() for org.apache.tiles.definition.digester.DigesterDefinitionsReader$FillAttributeRule@1ffaf40a
+[05:36:08][DEBUG](Digester.java:1561)-  Fire begin() for org.apache.tiles.definition.digester.DigesterDefinitionsReader$PutAttributeRule@3f0dd849
+[05:36:08][DEBUG](Digester.java:1561)-  Fire begin() for CallMethodRule[methodName=setBody, paramCount=0, paramTypes={java.lang.String}]
+[05:36:08][DEBUG](Digester.java:1274)-endElement(,put-attribute,put-attribute)
+[05:36:08][DEBUG](Digester.java:1277)-  match='tiles-definitions/definition/put-attribute'
+[05:36:08][DEBUG](Digester.java:1278)-  bodyText=''
+[05:36:08][DEBUG](Digester.java:1300)-  Fire body() for ObjectCreateRule[className=org.apache.tiles.Attribute, attributeName=null]
+[05:36:08][DEBUG](Digester.java:1300)-  Fire body() for org.apache.tiles.definition.digester.DigesterDefinitionsReader$FillAttributeRule@1ffaf40a
+[05:36:08][DEBUG](Digester.java:1300)-  Fire body() for org.apache.tiles.definition.digester.DigesterDefinitionsReader$PutAttributeRule@3f0dd849
+[05:36:08][DEBUG](Digester.java:1300)-  Fire body() for CallMethodRule[methodName=setBody, paramCount=0, paramTypes={java.lang.String}]
+[05:36:08][DEBUG](Digester.java:1320)-  Popping body text ''
+[05:36:08][DEBUG](Digester.java:1330)-  Fire end() for CallMethodRule[methodName=setBody, paramCount=0, paramTypes={java.lang.String}]
+[05:36:08][DEBUG](CallMethodRule.java:615)-[CallMethodRule]{tiles-definitions/definition/put-attribute} Call org.apache.tiles.Attribute.setBody(/java.lang.String)
+[05:36:08][DEBUG](Digester.java:1330)-  Fire end() for org.apache.tiles.definition.digester.DigesterDefinitionsReader$PutAttributeRule@3f0dd849
+[05:36:08][DEBUG](Digester.java:1330)-  Fire end() for org.apache.tiles.definition.digester.DigesterDefinitionsReader$FillAttributeRule@1ffaf40a
+[05:36:08][DEBUG](Digester.java:1330)-  Fire end() for ObjectCreateRule[className=org.apache.tiles.Attribute, attributeName=null]
+[05:36:08][DEBUG](ObjectCreateRule.java:219)-[ObjectCreateRule]{tiles-definitions/definition/put-attribute} Pop org.apache.tiles.Attribute
+[05:36:08][DEBUG](Digester.java:1397)-ignorableWhitespace( )
+[05:36:08][DEBUG](Digester.java:1397)-ignorableWhitespace(
+	)
+[05:36:08][DEBUG](Digester.java:1274)-endElement(,definition,definition)
+[05:36:08][DEBUG](Digester.java:1277)-  match='tiles-definitions/definition'
+[05:36:08][DEBUG](Digester.java:1278)-  bodyText=''
+[05:36:08][DEBUG](Digester.java:1300)-  Fire body() for ObjectCreateRule[className=org.apache.tiles.Definition, attributeName=null]
+[05:36:08][DEBUG](Digester.java:1300)-  Fire body() for org.apache.tiles.definition.digester.DigesterDefinitionsReader$FillDefinitionRule@f80baad
+[05:36:08][DEBUG](Digester.java:1300)-  Fire body() for SetNextRule[methodName=addDefinition, paramType=org.apache.tiles.Definition]
+[05:36:08][DEBUG](Digester.java:1320)-  Popping body text ''
+[05:36:08][DEBUG](Digester.java:1330)-  Fire end() for SetNextRule[methodName=addDefinition, paramType=org.apache.tiles.Definition]
+[05:36:08][DEBUG](SetNextRule.java:195)-[SetNextRule]{tiles-definitions/definition} Call org.apache.tiles.definition.digester.DigesterDefinitionsReader.addDefinition({name=/member/listMembers, template=null, role=null, preparerInstance=null, attributes={title=회원목록, body=/WEB-INF/views/member/listMembers.jsp}})
+[05:36:08][DEBUG](Digester.java:1330)-  Fire end() for org.apache.tiles.definition.digester.DigesterDefinitionsReader$FillDefinitionRule@f80baad
+[05:36:08][DEBUG](Digester.java:1330)-  Fire end() for ObjectCreateRule[className=org.apache.tiles.Definition, attributeName=null]
+[05:36:08][DEBUG](ObjectCreateRule.java:219)-[ObjectCreateRule]{tiles-definitions/definition} Pop org.apache.tiles.Definition
+[05:36:08][DEBUG](Digester.java:1397)-ignorableWhitespace(
+	
+	)
+[05:36:08][DEBUG](Digester.java:1520)-startElement(,definition,definition)
+[05:36:08][DEBUG](Digester.java:1527)-  Pushing body text ''
+[05:36:08][DEBUG](Digester.java:1546)-  New match='tiles-definitions/definition'
+[05:36:08][DEBUG](Digester.java:1561)-  Fire begin() for ObjectCreateRule[className=org.apache.tiles.Definition, attributeName=null]
+[05:36:08][DEBUG](ObjectCreateRule.java:200)-[ObjectCreateRule]{tiles-definitions/definition}New org.apache.tiles.Definition
+[05:36:08][DEBUG](Digester.java:1561)-  Fire begin() for org.apache.tiles.definition.digester.DigesterDefinitionsReader$FillDefinitionRule@f80baad
+[05:36:08][DEBUG](Digester.java:1561)-  Fire begin() for SetNextRule[methodName=addDefinition, paramType=org.apache.tiles.Definition]
+[05:36:08][DEBUG](Digester.java:1397)-ignorableWhitespace(
+		)
+[05:36:08][DEBUG](Digester.java:1520)-startElement(,put-attribute,put-attribute)
+[05:36:08][DEBUG](Digester.java:1527)-  Pushing body text ''
+[05:36:08][DEBUG](Digester.java:1546)-  New match='tiles-definitions/definition/put-attribute'
+[05:36:08][DEBUG](Digester.java:1561)-  Fire begin() for ObjectCreateRule[className=org.apache.tiles.Attribute, attributeName=null]
+[05:36:08][DEBUG](ObjectCreateRule.java:200)-[ObjectCreateRule]{tiles-definitions/definition/put-attribute}New org.apache.tiles.Attribute
+[05:36:08][DEBUG](Digester.java:1561)-  Fire begin() for org.apache.tiles.definition.digester.DigesterDefinitionsReader$FillAttributeRule@1ffaf40a
+[05:36:08][DEBUG](Digester.java:1561)-  Fire begin() for org.apache.tiles.definition.digester.DigesterDefinitionsReader$PutAttributeRule@3f0dd849
+[05:36:08][DEBUG](Digester.java:1561)-  Fire begin() for CallMethodRule[methodName=setBody, paramCount=0, paramTypes={java.lang.String}]
+[05:36:08][DEBUG](Digester.java:1274)-endElement(,put-attribute,put-attribute)
+[05:36:08][DEBUG](Digester.java:1277)-  match='tiles-definitions/definition/put-attribute'
+[05:36:08][DEBUG](Digester.java:1278)-  bodyText=''
+[05:36:08][DEBUG](Digester.java:1300)-  Fire body() for ObjectCreateRule[className=org.apache.tiles.Attribute, attributeName=null]
+[05:36:08][DEBUG](Digester.java:1300)-  Fire body() for org.apache.tiles.definition.digester.DigesterDefinitionsReader$FillAttributeRule@1ffaf40a
+[05:36:08][DEBUG](Digester.java:1300)-  Fire body() for org.apache.tiles.definition.digester.DigesterDefinitionsReader$PutAttributeRule@3f0dd849
+[05:36:08][DEBUG](Digester.java:1300)-  Fire body() for CallMethodRule[methodName=setBody, paramCount=0, paramTypes={java.lang.String}]
+[05:36:08][DEBUG](Digester.java:1320)-  Popping body text ''
+[05:36:08][DEBUG](Digester.java:1330)-  Fire end() for CallMethodRule[methodName=setBody, paramCount=0, paramTypes={java.lang.String}]
+[05:36:08][DEBUG](CallMethodRule.java:615)-[CallMethodRule]{tiles-definitions/definition/put-attribute} Call org.apache.tiles.Attribute.setBody(/java.lang.String)
+[05:36:08][DEBUG](Digester.java:1330)-  Fire end() for org.apache.tiles.definition.digester.DigesterDefinitionsReader$PutAttributeRule@3f0dd849
+[05:36:08][DEBUG](Digester.java:1330)-  Fire end() for org.apache.tiles.definition.digester.DigesterDefinitionsReader$FillAttributeRule@1ffaf40a
+[05:36:08][DEBUG](Digester.java:1330)-  Fire end() for ObjectCreateRule[className=org.apache.tiles.Attribute, attributeName=null]
+[05:36:08][DEBUG](ObjectCreateRule.java:219)-[ObjectCreateRule]{tiles-definitions/definition/put-attribute} Pop org.apache.tiles.Attribute
+[05:36:08][DEBUG](Digester.java:1397)-ignorableWhitespace(
+		)
+[05:36:08][DEBUG](Digester.java:1520)-startElement(,put-attribute,put-attribute)
+[05:36:08][DEBUG](Digester.java:1527)-  Pushing body text ''
+[05:36:08][DEBUG](Digester.java:1546)-  New match='tiles-definitions/definition/put-attribute'
+[05:36:08][DEBUG](Digester.java:1561)-  Fire begin() for ObjectCreateRule[className=org.apache.tiles.Attribute, attributeName=null]
+[05:36:08][DEBUG](ObjectCreateRule.java:200)-[ObjectCreateRule]{tiles-definitions/definition/put-attribute}New org.apache.tiles.Attribute
+[05:36:08][DEBUG](Digester.java:1561)-  Fire begin() for org.apache.tiles.definition.digester.DigesterDefinitionsReader$FillAttributeRule@1ffaf40a
+[05:36:08][DEBUG](Digester.java:1561)-  Fire begin() for org.apache.tiles.definition.digester.DigesterDefinitionsReader$PutAttributeRule@3f0dd849
+[05:36:08][DEBUG](Digester.java:1561)-  Fire begin() for CallMethodRule[methodName=setBody, paramCount=0, paramTypes={java.lang.String}]
+[05:36:08][DEBUG](Digester.java:1274)-endElement(,put-attribute,put-attribute)
+[05:36:08][DEBUG](Digester.java:1277)-  match='tiles-definitions/definition/put-attribute'
+[05:36:08][DEBUG](Digester.java:1278)-  bodyText=''
+[05:36:08][DEBUG](Digester.java:1300)-  Fire body() for ObjectCreateRule[className=org.apache.tiles.Attribute, attributeName=null]
+[05:36:08][DEBUG](Digester.java:1300)-  Fire body() for org.apache.tiles.definition.digester.DigesterDefinitionsReader$FillAttributeRule@1ffaf40a
+[05:36:08][DEBUG](Digester.java:1300)-  Fire body() for org.apache.tiles.definition.digester.DigesterDefinitionsReader$PutAttributeRule@3f0dd849
+[05:36:08][DEBUG](Digester.java:1300)-  Fire body() for CallMethodRule[methodName=setBody, paramCount=0, paramTypes={java.lang.String}]
+[05:36:08][DEBUG](Digester.java:1320)-  Popping body text ''
+[05:36:08][DEBUG](Digester.java:1330)-  Fire end() for CallMethodRule[methodName=setBody, paramCount=0, paramTypes={java.lang.String}]
+[05:36:08][DEBUG](CallMethodRule.java:615)-[CallMethodRule]{tiles-definitions/definition/put-attribute} Call org.apache.tiles.Attribute.setBody(/java.lang.String)
+[05:36:08][DEBUG](Digester.java:1330)-  Fire end() for org.apache.tiles.definition.digester.DigesterDefinitionsReader$PutAttributeRule@3f0dd849
+[05:36:08][DEBUG](Digester.java:1330)-  Fire end() for org.apache.tiles.definition.digester.DigesterDefinitionsReader$FillAttributeRule@1ffaf40a
+[05:36:08][DEBUG](Digester.java:1330)-  Fire end() for ObjectCreateRule[className=org.apache.tiles.Attribute, attributeName=null]
+[05:36:08][DEBUG](ObjectCreateRule.java:219)-[ObjectCreateRule]{tiles-definitions/definition/put-attribute} Pop org.apache.tiles.Attribute
+[05:36:08][DEBUG](Digester.java:1397)-ignorableWhitespace(
+	)
+[05:36:08][DEBUG](Digester.java:1274)-endElement(,definition,definition)
+[05:36:08][DEBUG](Digester.java:1277)-  match='tiles-definitions/definition'
+[05:36:08][DEBUG](Digester.java:1278)-  bodyText=''
+[05:36:08][DEBUG](Digester.java:1300)-  Fire body() for ObjectCreateRule[className=org.apache.tiles.Definition, attributeName=null]
+[05:36:08][DEBUG](Digester.java:1300)-  Fire body() for org.apache.tiles.definition.digester.DigesterDefinitionsReader$FillDefinitionRule@f80baad
+[05:36:08][DEBUG](Digester.java:1300)-  Fire body() for SetNextRule[methodName=addDefinition, paramType=org.apache.tiles.Definition]
+[05:36:08][DEBUG](Digester.java:1320)-  Popping body text ''
+[05:36:08][DEBUG](Digester.java:1330)-  Fire end() for SetNextRule[methodName=addDefinition, paramType=org.apache.tiles.Definition]
+[05:36:08][DEBUG](SetNextRule.java:195)-[SetNextRule]{tiles-definitions/definition} Call org.apache.tiles.definition.digester.DigesterDefinitionsReader.addDefinition({name=/member/loginForm, template=null, role=null, preparerInstance=null, attributes={title=로그인창, body=/WEB-INF/views/member/loginForm.jsp}})
+[05:36:08][DEBUG](Digester.java:1330)-  Fire end() for org.apache.tiles.definition.digester.DigesterDefinitionsReader$FillDefinitionRule@f80baad
+[05:36:08][DEBUG](Digester.java:1330)-  Fire end() for ObjectCreateRule[className=org.apache.tiles.Definition, attributeName=null]
+[05:36:08][DEBUG](ObjectCreateRule.java:219)-[ObjectCreateRule]{tiles-definitions/definition} Pop org.apache.tiles.Definition
+[05:36:08][DEBUG](Digester.java:1397)-ignorableWhitespace(
+
+)
+[05:36:08][DEBUG](Digester.java:1274)-endElement(,tiles-definitions,tiles-definitions)
+[05:36:08][DEBUG](Digester.java:1277)-  match='tiles-definitions'
+[05:36:08][DEBUG](Digester.java:1278)-  bodyText=''
+[05:36:08][DEBUG](Digester.java:1313)-  No rules found matching 'tiles-definitions'.
+[05:36:08][DEBUG](Digester.java:1320)-  Popping body text ''
+[05:36:08][DEBUG](Digester.java:1226)-endDocument()
+[05:36:08][DEBUG](Digester.java:1451)-setDocumentLocator(com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser$LocatorProxy@6902b118)
+[05:36:08][DEBUG](Digester.java:1485)-startDocument()
+[05:36:08][DEBUG](Digester.java:1680)-resolveEntity('-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN', 'http://tiles.apache.org/dtds/tiles-config_2_1.dtd')
+[05:36:08][DEBUG](Digester.java:1721)- Resolving to alternate DTD 'jar:file:/C:/workspace-spring/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/ezen12_Board%20(8)/WEB-INF/lib/tiles-core-2.2.2.jar!/org/apache/tiles/resources/tiles-config_2_1.dtd'
+[05:36:08][DEBUG](Digester.java:1520)-startElement(,tiles-definitions,tiles-definitions)
+[05:36:08][DEBUG](Digester.java:1527)-  Pushing body text ''
+[05:36:08][DEBUG](Digester.java:1546)-  New match='tiles-definitions'
+[05:36:08][DEBUG](Digester.java:1574)-  No rules found matching 'tiles-definitions'.
+[05:36:08][DEBUG](Digester.java:1397)-ignorableWhitespace(
+	
+	)
+[05:36:08][DEBUG](Digester.java:1397)-ignorableWhitespace(		)
+[05:36:08][DEBUG](Digester.java:1397)-ignorableWhitespace(	
+	)
+[05:36:08][DEBUG](Digester.java:1520)-startElement(,definition,definition)
+[05:36:08][DEBUG](Digester.java:1527)-  Pushing body text ''
+[05:36:08][DEBUG](Digester.java:1546)-  New match='tiles-definitions/definition'
+[05:36:08][DEBUG](Digester.java:1561)-  Fire begin() for ObjectCreateRule[className=org.apache.tiles.Definition, attributeName=null]
+[05:36:08][DEBUG](ObjectCreateRule.java:200)-[ObjectCreateRule]{tiles-definitions/definition}New org.apache.tiles.Definition
+[05:36:08][DEBUG](Digester.java:1561)-  Fire begin() for org.apache.tiles.definition.digester.DigesterDefinitionsReader$FillDefinitionRule@f80baad
+[05:36:08][DEBUG](Digester.java:1561)-  Fire begin() for SetNextRule[methodName=addDefinition, paramType=org.apache.tiles.Definition]
+[05:36:08][DEBUG](Digester.java:1397)-ignorableWhitespace(
+		)
+[05:36:08][DEBUG](Digester.java:1520)-startElement(,put-attribute,put-attribute)
+[05:36:08][DEBUG](Digester.java:1527)-  Pushing body text ''
+[05:36:08][DEBUG](Digester.java:1546)-  New match='tiles-definitions/definition/put-attribute'
+[05:36:08][DEBUG](Digester.java:1561)-  Fire begin() for ObjectCreateRule[className=org.apache.tiles.Attribute, attributeName=null]
+[05:36:08][DEBUG](ObjectCreateRule.java:200)-[ObjectCreateRule]{tiles-definitions/definition/put-attribute}New org.apache.tiles.Attribute
+[05:36:08][DEBUG](Digester.java:1561)-  Fire begin() for org.apache.tiles.definition.digester.DigesterDefinitionsReader$FillAttributeRule@1ffaf40a
+[05:36:08][DEBUG](Digester.java:1561)-  Fire begin() for org.apache.tiles.definition.digester.DigesterDefinitionsReader$PutAttributeRule@3f0dd849
+[05:36:08][DEBUG](Digester.java:1561)-  Fire begin() for CallMethodRule[methodName=setBody, paramCount=0, paramTypes={java.lang.String}]
+[05:36:08][DEBUG](Digester.java:1274)-endElement(,put-attribute,put-attribute)
+[05:36:08][DEBUG](Digester.java:1277)-  match='tiles-definitions/definition/put-attribute'
+[05:36:08][DEBUG](Digester.java:1278)-  bodyText=''
+[05:36:08][DEBUG](Digester.java:1300)-  Fire body() for ObjectCreateRule[className=org.apache.tiles.Attribute, attributeName=null]
+[05:36:08][DEBUG](Digester.java:1300)-  Fire body() for org.apache.tiles.definition.digester.DigesterDefinitionsReader$FillAttributeRule@1ffaf40a
+[05:36:08][DEBUG](Digester.java:1300)-  Fire body() for org.apache.tiles.definition.digester.DigesterDefinitionsReader$PutAttributeRule@3f0dd849
+[05:36:08][DEBUG](Digester.java:1300)-  Fire body() for CallMethodRule[methodName=setBody, paramCount=0, paramTypes={java.lang.String}]
+[05:36:08][DEBUG](Digester.java:1320)-  Popping body text ''
+[05:36:08][DEBUG](Digester.java:1330)-  Fire end() for CallMethodRule[methodName=setBody, paramCount=0, paramTypes={java.lang.String}]
+[05:36:08][DEBUG](CallMethodRule.java:615)-[CallMethodRule]{tiles-definitions/definition/put-attribute} Call org.apache.tiles.Attribute.setBody(/java.lang.String)
+[05:36:08][DEBUG](Digester.java:1330)-  Fire end() for org.apache.tiles.definition.digester.DigesterDefinitionsReader$PutAttributeRule@3f0dd849
+[05:36:08][DEBUG](Digester.java:1330)-  Fire end() for org.apache.tiles.definition.digester.DigesterDefinitionsReader$FillAttributeRule@1ffaf40a
+[05:36:08][DEBUG](Digester.java:1330)-  Fire end() for ObjectCreateRule[className=org.apache.tiles.Attribute, attributeName=null]
+[05:36:08][DEBUG](ObjectCreateRule.java:219)-[ObjectCreateRule]{tiles-definitions/definition/put-attribute} Pop org.apache.tiles.Attribute
+[05:36:08][DEBUG](Digester.java:1397)-ignorableWhitespace(		)
+[05:36:08][DEBUG](Digester.java:1397)-ignorableWhitespace(
+		)
+[05:36:08][DEBUG](Digester.java:1520)-startElement(,put-attribute,put-attribute)
+[05:36:08][DEBUG](Digester.java:1527)-  Pushing body text ''
+[05:36:08][DEBUG](Digester.java:1546)-  New match='tiles-definitions/definition/put-attribute'
+[05:36:08][DEBUG](Digester.java:1561)-  Fire begin() for ObjectCreateRule[className=org.apache.tiles.Attribute, attributeName=null]
+[05:36:08][DEBUG](ObjectCreateRule.java:200)-[ObjectCreateRule]{tiles-definitions/definition/put-attribute}New org.apache.tiles.Attribute
+[05:36:08][DEBUG](Digester.java:1561)-  Fire begin() for org.apache.tiles.definition.digester.DigesterDefinitionsReader$FillAttributeRule@1ffaf40a
+[05:36:08][DEBUG](Digester.java:1561)-  Fire begin() for org.apache.tiles.definition.digester.DigesterDefinitionsReader$PutAttributeRule@3f0dd849
+[05:36:08][DEBUG](Digester.java:1561)-  Fire begin() for CallMethodRule[methodName=setBody, paramCount=0, paramTypes={java.lang.String}]
+[05:36:08][DEBUG](Digester.java:1274)-endElement(,put-attribute,put-attribute)
+[05:36:08][DEBUG](Digester.java:1277)-  match='tiles-definitions/definition/put-attribute'
+[05:36:08][DEBUG](Digester.java:1278)-  bodyText=''
+[05:36:08][DEBUG](Digester.java:1300)-  Fire body() for ObjectCreateRule[className=org.apache.tiles.Attribute, attributeName=null]
+[05:36:08][DEBUG](Digester.java:1300)-  Fire body() for org.apache.tiles.definition.digester.DigesterDefinitionsReader$FillAttributeRule@1ffaf40a
+[05:36:08][DEBUG](Digester.java:1300)-  Fire body() for org.apache.tiles.definition.digester.DigesterDefinitionsReader$PutAttributeRule@3f0dd849
+[05:36:08][DEBUG](Digester.java:1300)-  Fire body() for CallMethodRule[methodName=setBody, paramCount=0, paramTypes={java.lang.String}]
+[05:36:08][DEBUG](Digester.java:1320)-  Popping body text ''
+[05:36:08][DEBUG](Digester.java:1330)-  Fire end() for CallMethodRule[methodName=setBody, paramCount=0, paramTypes={java.lang.String}]
+[05:36:08][DEBUG](CallMethodRule.java:615)-[CallMethodRule]{tiles-definitions/definition/put-attribute} Call org.apache.tiles.Attribute.setBody(/java.lang.String)
+[05:36:08][DEBUG](Digester.java:1330)-  Fire end() for org.apache.tiles.definition.digester.DigesterDefinitionsReader$PutAttributeRule@3f0dd849
+[05:36:08][DEBUG](Digester.java:1330)-  Fire end() for org.apache.tiles.definition.digester.DigesterDefinitionsReader$FillAttributeRule@1ffaf40a
+[05:36:08][DEBUG](Digester.java:1330)-  Fire end() for ObjectCreateRule[className=org.apache.tiles.Attribute, attributeName=null]
+[05:36:08][DEBUG](ObjectCreateRule.java:219)-[ObjectCreateRule]{tiles-definitions/definition/put-attribute} Pop org.apache.tiles.Attribute
+[05:36:08][DEBUG](Digester.java:1397)-ignorableWhitespace( )
+[05:36:08][DEBUG](Digester.java:1397)-ignorableWhitespace(
+	)
+[05:36:08][DEBUG](Digester.java:1274)-endElement(,definition,definition)
+[05:36:08][DEBUG](Digester.java:1277)-  match='tiles-definitions/definition'
+[05:36:08][DEBUG](Digester.java:1278)-  bodyText=''
+[05:36:08][DEBUG](Digester.java:1300)-  Fire body() for ObjectCreateRule[className=org.apache.tiles.Definition, attributeName=null]
+[05:36:08][DEBUG](Digester.java:1300)-  Fire body() for org.apache.tiles.definition.digester.DigesterDefinitionsReader$FillDefinitionRule@f80baad
+[05:36:08][DEBUG](Digester.java:1300)-  Fire body() for SetNextRule[methodName=addDefinition, paramType=org.apache.tiles.Definition]
+[05:36:08][DEBUG](Digester.java:1320)-  Popping body text ''
+[05:36:08][DEBUG](Digester.java:1330)-  Fire end() for SetNextRule[methodName=addDefinition, paramType=org.apache.tiles.Definition]
+[05:36:08][DEBUG](SetNextRule.java:195)-[SetNextRule]{tiles-definitions/definition} Call org.apache.tiles.definition.digester.DigesterDefinitionsReader.addDefinition({name=/board/listArticles, template=null, role=null, preparerInstance=null, attributes={title=글목록, body=/WEB-INF/views/board/listArticles.jsp}})
+[05:36:08][DEBUG](Digester.java:1330)-  Fire end() for org.apache.tiles.definition.digester.DigesterDefinitionsReader$FillDefinitionRule@f80baad
+[05:36:08][DEBUG](Digester.java:1330)-  Fire end() for ObjectCreateRule[className=org.apache.tiles.Definition, attributeName=null]
+[05:36:08][DEBUG](ObjectCreateRule.java:219)-[ObjectCreateRule]{tiles-definitions/definition} Pop org.apache.tiles.Definition
+[05:36:08][DEBUG](Digester.java:1397)-ignorableWhitespace(
+	
+	)
+[05:36:08][DEBUG](Digester.java:1520)-startElement(,definition,definition)
+[05:36:08][DEBUG](Digester.java:1527)-  Pushing body text ''
+[05:36:08][DEBUG](Digester.java:1546)-  New match='tiles-definitions/definition'
+[05:36:08][DEBUG](Digester.java:1561)-  Fire begin() for ObjectCreateRule[className=org.apache.tiles.Definition, attributeName=null]
+[05:36:08][DEBUG](ObjectCreateRule.java:200)-[ObjectCreateRule]{tiles-definitions/definition}New org.apache.tiles.Definition
+[05:36:08][DEBUG](Digester.java:1561)-  Fire begin() for org.apache.tiles.definition.digester.DigesterDefinitionsReader$FillDefinitionRule@f80baad
+[05:36:08][DEBUG](Digester.java:1561)-  Fire begin() for SetNextRule[methodName=addDefinition, paramType=org.apache.tiles.Definition]
+[05:36:08][DEBUG](Digester.java:1397)-ignorableWhitespace(
+		)
+[05:36:08][DEBUG](Digester.java:1520)-startElement(,put-attribute,put-attribute)
+[05:36:08][DEBUG](Digester.java:1527)-  Pushing body text ''
+[05:36:08][DEBUG](Digester.java:1546)-  New match='tiles-definitions/definition/put-attribute'
+[05:36:08][DEBUG](Digester.java:1561)-  Fire begin() for ObjectCreateRule[className=org.apache.tiles.Attribute, attributeName=null]
+[05:36:08][DEBUG](ObjectCreateRule.java:200)-[ObjectCreateRule]{tiles-definitions/definition/put-attribute}New org.apache.tiles.Attribute
+[05:36:08][DEBUG](Digester.java:1561)-  Fire begin() for org.apache.tiles.definition.digester.DigesterDefinitionsReader$FillAttributeRule@1ffaf40a
+[05:36:08][DEBUG](Digester.java:1561)-  Fire begin() for org.apache.tiles.definition.digester.DigesterDefinitionsReader$PutAttributeRule@3f0dd849
+[05:36:08][DEBUG](Digester.java:1561)-  Fire begin() for CallMethodRule[methodName=setBody, paramCount=0, paramTypes={java.lang.String}]
+[05:36:08][DEBUG](Digester.java:1274)-endElement(,put-attribute,put-attribute)
+[05:36:08][DEBUG](Digester.java:1277)-  match='tiles-definitions/definition/put-attribute'
+[05:36:08][DEBUG](Digester.java:1278)-  bodyText=''
+[05:36:08][DEBUG](Digester.java:1300)-  Fire body() for ObjectCreateRule[className=org.apache.tiles.Attribute, attributeName=null]
+[05:36:08][DEBUG](Digester.java:1300)-  Fire body() for org.apache.tiles.definition.digester.DigesterDefinitionsReader$FillAttributeRule@1ffaf40a
+[05:36:08][DEBUG](Digester.java:1300)-  Fire body() for org.apache.tiles.definition.digester.DigesterDefinitionsReader$PutAttributeRule@3f0dd849
+[05:36:08][DEBUG](Digester.java:1300)-  Fire body() for CallMethodRule[methodName=setBody, paramCount=0, paramTypes={java.lang.String}]
+[05:36:08][DEBUG](Digester.java:1320)-  Popping body text ''
+[05:36:08][DEBUG](Digester.java:1330)-  Fire end() for CallMethodRule[methodName=setBody, paramCount=0, paramTypes={java.lang.String}]
+[05:36:08][DEBUG](CallMethodRule.java:615)-[CallMethodRule]{tiles-definitions/definition/put-attribute} Call org.apache.tiles.Attribute.setBody(/java.lang.String)
+[05:36:08][DEBUG](Digester.java:1330)-  Fire end() for org.apache.tiles.definition.digester.DigesterDefinitionsReader$PutAttributeRule@3f0dd849
+[05:36:08][DEBUG](Digester.java:1330)-  Fire end() for org.apache.tiles.definition.digester.DigesterDefinitionsReader$FillAttributeRule@1ffaf40a
+[05:36:08][DEBUG](Digester.java:1330)-  Fire end() for ObjectCreateRule[className=org.apache.tiles.Attribute, attributeName=null]
+[05:36:08][DEBUG](ObjectCreateRule.java:219)-[ObjectCreateRule]{tiles-definitions/definition/put-attribute} Pop org.apache.tiles.Attribute
+[05:36:08][DEBUG](Digester.java:1397)-ignorableWhitespace(	
+		)
+[05:36:08][DEBUG](Digester.java:1520)-startElement(,put-attribute,put-attribute)
+[05:36:08][DEBUG](Digester.java:1527)-  Pushing body text ''
+[05:36:08][DEBUG](Digester.java:1546)-  New match='tiles-definitions/definition/put-attribute'
+[05:36:08][DEBUG](Digester.java:1561)-  Fire begin() for ObjectCreateRule[className=org.apache.tiles.Attribute, attributeName=null]
+[05:36:08][DEBUG](ObjectCreateRule.java:200)-[ObjectCreateRule]{tiles-definitions/definition/put-attribute}New org.apache.tiles.Attribute
+[05:36:08][DEBUG](Digester.java:1561)-  Fire begin() for org.apache.tiles.definition.digester.DigesterDefinitionsReader$FillAttributeRule@1ffaf40a
+[05:36:08][DEBUG](Digester.java:1561)-  Fire begin() for org.apache.tiles.definition.digester.DigesterDefinitionsReader$PutAttributeRule@3f0dd849
+[05:36:08][DEBUG](Digester.java:1561)-  Fire begin() for CallMethodRule[methodName=setBody, paramCount=0, paramTypes={java.lang.String}]
+[05:36:08][DEBUG](Digester.java:1274)-endElement(,put-attribute,put-attribute)
+[05:36:08][DEBUG](Digester.java:1277)-  match='tiles-definitions/definition/put-attribute'
+[05:36:08][DEBUG](Digester.java:1278)-  bodyText=''
+[05:36:08][DEBUG](Digester.java:1300)-  Fire body() for ObjectCreateRule[className=org.apache.tiles.Attribute, attributeName=null]
+[05:36:08][DEBUG](Digester.java:1300)-  Fire body() for org.apache.tiles.definition.digester.DigesterDefinitionsReader$FillAttributeRule@1ffaf40a
+[05:36:08][DEBUG](Digester.java:1300)-  Fire body() for org.apache.tiles.definition.digester.DigesterDefinitionsReader$PutAttributeRule@3f0dd849
+[05:36:08][DEBUG](Digester.java:1300)-  Fire body() for CallMethodRule[methodName=setBody, paramCount=0, paramTypes={java.lang.String}]
+[05:36:08][DEBUG](Digester.java:1320)-  Popping body text ''
+[05:36:08][DEBUG](Digester.java:1330)-  Fire end() for CallMethodRule[methodName=setBody, paramCount=0, paramTypes={java.lang.String}]
+[05:36:08][DEBUG](CallMethodRule.java:615)-[CallMethodRule]{tiles-definitions/definition/put-attribute} Call org.apache.tiles.Attribute.setBody(/java.lang.String)
+[05:36:08][DEBUG](Digester.java:1330)-  Fire end() for org.apache.tiles.definition.digester.DigesterDefinitionsReader$PutAttributeRule@3f0dd849
+[05:36:08][DEBUG](Digester.java:1330)-  Fire end() for org.apache.tiles.definition.digester.DigesterDefinitionsReader$FillAttributeRule@1ffaf40a
+[05:36:08][DEBUG](Digester.java:1330)-  Fire end() for ObjectCreateRule[className=org.apache.tiles.Attribute, attributeName=null]
+[05:36:08][DEBUG](ObjectCreateRule.java:219)-[ObjectCreateRule]{tiles-definitions/definition/put-attribute} Pop org.apache.tiles.Attribute
+[05:36:08][DEBUG](Digester.java:1397)-ignorableWhitespace(	)
+[05:36:08][DEBUG](Digester.java:1397)-ignorableWhitespace(
+	)
+[05:36:08][DEBUG](Digester.java:1274)-endElement(,definition,definition)
+[05:36:08][DEBUG](Digester.java:1277)-  match='tiles-definitions/definition'
+[05:36:08][DEBUG](Digester.java:1278)-  bodyText=''
+[05:36:08][DEBUG](Digester.java:1300)-  Fire body() for ObjectCreateRule[className=org.apache.tiles.Definition, attributeName=null]
+[05:36:08][DEBUG](Digester.java:1300)-  Fire body() for org.apache.tiles.definition.digester.DigesterDefinitionsReader$FillDefinitionRule@f80baad
+[05:36:08][DEBUG](Digester.java:1300)-  Fire body() for SetNextRule[methodName=addDefinition, paramType=org.apache.tiles.Definition]
+[05:36:08][DEBUG](Digester.java:1320)-  Popping body text ''
+[05:36:08][DEBUG](Digester.java:1330)-  Fire end() for SetNextRule[methodName=addDefinition, paramType=org.apache.tiles.Definition]
+[05:36:08][DEBUG](SetNextRule.java:195)-[SetNextRule]{tiles-definitions/definition} Call org.apache.tiles.definition.digester.DigesterDefinitionsReader.addDefinition({name=/board/articleForm, template=null, role=null, preparerInstance=null, attributes={title=글쓰기, body=/WEB-INF/views/board/articleForm.jsp}})
+[05:36:08][DEBUG](Digester.java:1330)-  Fire end() for org.apache.tiles.definition.digester.DigesterDefinitionsReader$FillDefinitionRule@f80baad
+[05:36:08][DEBUG](Digester.java:1330)-  Fire end() for ObjectCreateRule[className=org.apache.tiles.Definition, attributeName=null]
+[05:36:08][DEBUG](ObjectCreateRule.java:219)-[ObjectCreateRule]{tiles-definitions/definition} Pop org.apache.tiles.Definition
+[05:36:08][DEBUG](Digester.java:1397)-ignorableWhitespace(
+	
+	)
+[05:36:08][DEBUG](Digester.java:1520)-startElement(,definition,definition)
+[05:36:08][DEBUG](Digester.java:1527)-  Pushing body text ''
+[05:36:08][DEBUG](Digester.java:1546)-  New match='tiles-definitions/definition'
+[05:36:08][DEBUG](Digester.java:1561)-  Fire begin() for ObjectCreateRule[className=org.apache.tiles.Definition, attributeName=null]
+[05:36:08][DEBUG](ObjectCreateRule.java:200)-[ObjectCreateRule]{tiles-definitions/definition}New org.apache.tiles.Definition
+[05:36:08][DEBUG](Digester.java:1561)-  Fire begin() for org.apache.tiles.definition.digester.DigesterDefinitionsReader$FillDefinitionRule@f80baad
+[05:36:08][DEBUG](Digester.java:1561)-  Fire begin() for SetNextRule[methodName=addDefinition, paramType=org.apache.tiles.Definition]
+[05:36:08][DEBUG](Digester.java:1397)-ignorableWhitespace(
+		)
+[05:36:08][DEBUG](Digester.java:1520)-startElement(,put-attribute,put-attribute)
+[05:36:08][DEBUG](Digester.java:1527)-  Pushing body text ''
+[05:36:08][DEBUG](Digester.java:1546)-  New match='tiles-definitions/definition/put-attribute'
+[05:36:08][DEBUG](Digester.java:1561)-  Fire begin() for ObjectCreateRule[className=org.apache.tiles.Attribute, attributeName=null]
+[05:36:08][DEBUG](ObjectCreateRule.java:200)-[ObjectCreateRule]{tiles-definitions/definition/put-attribute}New org.apache.tiles.Attribute
+[05:36:08][DEBUG](Digester.java:1561)-  Fire begin() for org.apache.tiles.definition.digester.DigesterDefinitionsReader$FillAttributeRule@1ffaf40a
+[05:36:08][DEBUG](Digester.java:1561)-  Fire begin() for org.apache.tiles.definition.digester.DigesterDefinitionsReader$PutAttributeRule@3f0dd849
+[05:36:08][DEBUG](Digester.java:1561)-  Fire begin() for CallMethodRule[methodName=setBody, paramCount=0, paramTypes={java.lang.String}]
+[05:36:08][DEBUG](Digester.java:1274)-endElement(,put-attribute,put-attribute)
+[05:36:08][DEBUG](Digester.java:1277)-  match='tiles-definitions/definition/put-attribute'
+[05:36:08][DEBUG](Digester.java:1278)-  bodyText=''
+[05:36:08][DEBUG](Digester.java:1300)-  Fire body() for ObjectCreateRule[className=org.apache.tiles.Attribute, attributeName=null]
+[05:36:08][DEBUG](Digester.java:1300)-  Fire body() for org.apache.tiles.definition.digester.DigesterDefinitionsReader$FillAttributeRule@1ffaf40a
+[05:36:08][DEBUG](Digester.java:1300)-  Fire body() for org.apache.tiles.definition.digester.DigesterDefinitionsReader$PutAttributeRule@3f0dd849
+[05:36:08][DEBUG](Digester.java:1300)-  Fire body() for CallMethodRule[methodName=setBody, paramCount=0, paramTypes={java.lang.String}]
+[05:36:08][DEBUG](Digester.java:1320)-  Popping body text ''
+[05:36:08][DEBUG](Digester.java:1330)-  Fire end() for CallMethodRule[methodName=setBody, paramCount=0, paramTypes={java.lang.String}]
+[05:36:08][DEBUG](CallMethodRule.java:615)-[CallMethodRule]{tiles-definitions/definition/put-attribute} Call org.apache.tiles.Attribute.setBody(/java.lang.String)
+[05:36:08][DEBUG](Digester.java:1330)-  Fire end() for org.apache.tiles.definition.digester.DigesterDefinitionsReader$PutAttributeRule@3f0dd849
+[05:36:08][DEBUG](Digester.java:1330)-  Fire end() for org.apache.tiles.definition.digester.DigesterDefinitionsReader$FillAttributeRule@1ffaf40a
+[05:36:08][DEBUG](Digester.java:1330)-  Fire end() for ObjectCreateRule[className=org.apache.tiles.Attribute, attributeName=null]
+[05:36:08][DEBUG](ObjectCreateRule.java:219)-[ObjectCreateRule]{tiles-definitions/definition/put-attribute} Pop org.apache.tiles.Attribute
+[05:36:08][DEBUG](Digester.java:1397)-ignorableWhitespace(
+		)
+[05:36:08][DEBUG](Digester.java:1520)-startElement(,put-attribute,put-attribute)
+[05:36:08][DEBUG](Digester.java:1527)-  Pushing body text ''
+[05:36:08][DEBUG](Digester.java:1546)-  New match='tiles-definitions/definition/put-attribute'
+[05:36:08][DEBUG](Digester.java:1561)-  Fire begin() for ObjectCreateRule[className=org.apache.tiles.Attribute, attributeName=null]
+[05:36:08][DEBUG](ObjectCreateRule.java:200)-[ObjectCreateRule]{tiles-definitions/definition/put-attribute}New org.apache.tiles.Attribute
+[05:36:08][DEBUG](Digester.java:1561)-  Fire begin() for org.apache.tiles.definition.digester.DigesterDefinitionsReader$FillAttributeRule@1ffaf40a
+[05:36:08][DEBUG](Digester.java:1561)-  Fire begin() for org.apache.tiles.definition.digester.DigesterDefinitionsReader$PutAttributeRule@3f0dd849
+[05:36:08][DEBUG](Digester.java:1561)-  Fire begin() for CallMethodRule[methodName=setBody, paramCount=0, paramTypes={java.lang.String}]
+[05:36:08][DEBUG](Digester.java:1274)-endElement(,put-attribute,put-attribute)
+[05:36:08][DEBUG](Digester.java:1277)-  match='tiles-definitions/definition/put-attribute'
+[05:36:08][DEBUG](Digester.java:1278)-  bodyText=''
+[05:36:08][DEBUG](Digester.java:1300)-  Fire body() for ObjectCreateRule[className=org.apache.tiles.Attribute, attributeName=null]
+[05:36:08][DEBUG](Digester.java:1300)-  Fire body() for org.apache.tiles.definition.digester.DigesterDefinitionsReader$FillAttributeRule@1ffaf40a
+[05:36:08][DEBUG](Digester.java:1300)-  Fire body() for org.apache.tiles.definition.digester.DigesterDefinitionsReader$PutAttributeRule@3f0dd849
+[05:36:08][DEBUG](Digester.java:1300)-  Fire body() for CallMethodRule[methodName=setBody, paramCount=0, paramTypes={java.lang.String}]
+[05:36:08][DEBUG](Digester.java:1320)-  Popping body text ''
+[05:36:08][DEBUG](Digester.java:1330)-  Fire end() for CallMethodRule[methodName=setBody, paramCount=0, paramTypes={java.lang.String}]
+[05:36:08][DEBUG](CallMethodRule.java:615)-[CallMethodRule]{tiles-definitions/definition/put-attribute} Call org.apache.tiles.Attribute.setBody(/java.lang.String)
+[05:36:08][DEBUG](Digester.java:1330)-  Fire end() for org.apache.tiles.definition.digester.DigesterDefinitionsReader$PutAttributeRule@3f0dd849
+[05:36:08][DEBUG](Digester.java:1330)-  Fire end() for org.apache.tiles.definition.digester.DigesterDefinitionsReader$FillAttributeRule@1ffaf40a
+[05:36:08][DEBUG](Digester.java:1330)-  Fire end() for ObjectCreateRule[className=org.apache.tiles.Attribute, attributeName=null]
+[05:36:08][DEBUG](ObjectCreateRule.java:219)-[ObjectCreateRule]{tiles-definitions/definition/put-attribute} Pop org.apache.tiles.Attribute
+[05:36:08][DEBUG](Digester.java:1397)-ignorableWhitespace(
+	)
+[05:36:08][DEBUG](Digester.java:1274)-endElement(,definition,definition)
+[05:36:08][DEBUG](Digester.java:1277)-  match='tiles-definitions/definition'
+[05:36:08][DEBUG](Digester.java:1278)-  bodyText=''
+[05:36:08][DEBUG](Digester.java:1300)-  Fire body() for ObjectCreateRule[className=org.apache.tiles.Definition, attributeName=null]
+[05:36:08][DEBUG](Digester.java:1300)-  Fire body() for org.apache.tiles.definition.digester.DigesterDefinitionsReader$FillDefinitionRule@f80baad
+[05:36:08][DEBUG](Digester.java:1300)-  Fire body() for SetNextRule[methodName=addDefinition, paramType=org.apache.tiles.Definition]
+[05:36:08][DEBUG](Digester.java:1320)-  Popping body text ''
+[05:36:08][DEBUG](Digester.java:1330)-  Fire end() for SetNextRule[methodName=addDefinition, paramType=org.apache.tiles.Definition]
+[05:36:08][DEBUG](SetNextRule.java:195)-[SetNextRule]{tiles-definitions/definition} Call org.apache.tiles.definition.digester.DigesterDefinitionsReader.addDefinition({name=/board/viewArticle, template=null, role=null, preparerInstance=null, attributes={title=글상세보기, body=/WEB-INF/views/board/viewArticle.jsp}})
+[05:36:08][DEBUG](Digester.java:1330)-  Fire end() for org.apache.tiles.definition.digester.DigesterDefinitionsReader$FillDefinitionRule@f80baad
+[05:36:08][DEBUG](Digester.java:1330)-  Fire end() for ObjectCreateRule[className=org.apache.tiles.Definition, attributeName=null]
+[05:36:08][DEBUG](ObjectCreateRule.java:219)-[ObjectCreateRule]{tiles-definitions/definition} Pop org.apache.tiles.Definition
+[05:36:08][DEBUG](Digester.java:1397)-ignorableWhitespace(
+
+)
+[05:36:08][DEBUG](Digester.java:1274)-endElement(,tiles-definitions,tiles-definitions)
+[05:36:08][DEBUG](Digester.java:1277)-  match='tiles-definitions'
+[05:36:08][DEBUG](Digester.java:1278)-  bodyText=''
+[05:36:08][DEBUG](Digester.java:1313)-  No rules found matching 'tiles-definitions'.
+[05:36:08][DEBUG](Digester.java:1320)-  Popping body text ''
+[05:36:08][DEBUG](Digester.java:1226)-endDocument()
+[05:36:08][DEBUG](ResolvingLocaleUrlDefinitionDAO.java:136)-Resolve definition for child name='main' extends='baseLayout'.
+[05:36:08][DEBUG](ResolvingLocaleUrlDefinitionDAO.java:136)-Resolve definition for child name='/member/listMembers' extends='baseLayout'.
+[05:36:09][DEBUG](ResolvingLocaleUrlDefinitionDAO.java:136)-Resolve definition for child name='/member/loginForm' extends='baseLayout'.
+[05:36:09][DEBUG](ResolvingLocaleUrlDefinitionDAO.java:136)-Resolve definition for child name='/board/listArticles' extends='baseLayout'.
+[05:36:09][DEBUG](ResolvingLocaleUrlDefinitionDAO.java:136)-Resolve definition for child name='/board/articleForm' extends='baseLayout'.
+[05:36:09][DEBUG](ResolvingLocaleUrlDefinitionDAO.java:136)-Resolve definition for child name='/board/viewArticle' extends='baseLayout'.
+[05:36:09][DEBUG](BaseLocaleUrlDefinitionDAO.java:280)-File null not found, continue
+[05:36:09][DEBUG](BaseLocaleUrlDefinitionDAO.java:280)-File null not found, continue
+[05:36:09][DEBUG](ResolvingLocaleUrlDefinitionDAO.java:136)-Resolve definition for child name='main' extends='baseLayout'.
+[05:36:09][DEBUG](ResolvingLocaleUrlDefinitionDAO.java:136)-Resolve definition for child name='/member/listMembers' extends='baseLayout'.
+[05:36:09][DEBUG](ResolvingLocaleUrlDefinitionDAO.java:136)-Resolve definition for child name='/member/loginForm' extends='baseLayout'.
+[05:36:09][DEBUG](ResolvingLocaleUrlDefinitionDAO.java:136)-Resolve definition for child name='/board/listArticles' extends='baseLayout'.
+[05:36:09][DEBUG](ResolvingLocaleUrlDefinitionDAO.java:136)-Resolve definition for child name='/board/articleForm' extends='baseLayout'.
+[05:36:09][DEBUG](ResolvingLocaleUrlDefinitionDAO.java:136)-Resolve definition for child name='/board/viewArticle' extends='baseLayout'.
+[05:36:09][DEBUG](BaseLocaleUrlDefinitionDAO.java:280)-File null not found, continue
+[05:36:09][DEBUG](BaseLocaleUrlDefinitionDAO.java:280)-File null not found, continue
+[05:36:09][DEBUG](ResolvingLocaleUrlDefinitionDAO.java:136)-Resolve definition for child name='main' extends='baseLayout'.
+[05:36:09][DEBUG](ResolvingLocaleUrlDefinitionDAO.java:136)-Resolve definition for child name='/member/listMembers' extends='baseLayout'.
+[05:36:09][DEBUG](ResolvingLocaleUrlDefinitionDAO.java:136)-Resolve definition for child name='/member/loginForm' extends='baseLayout'.
+[05:36:09][DEBUG](ResolvingLocaleUrlDefinitionDAO.java:136)-Resolve definition for child name='/board/listArticles' extends='baseLayout'.
+[05:36:09][DEBUG](ResolvingLocaleUrlDefinitionDAO.java:136)-Resolve definition for child name='/board/articleForm' extends='baseLayout'.
+[05:36:09][DEBUG](ResolvingLocaleUrlDefinitionDAO.java:136)-Resolve definition for child name='/board/viewArticle' extends='baseLayout'.
+[05:38:52][INFO ](ContextLoader.java:285)-Root WebApplicationContext: initialization started
+[05:38:53][INFO ](AbstractApplicationContext.java:510)-Refreshing Root WebApplicationContext: startup date [Sat Jul 23 05:38:53 KST 2022]; root of context hierarchy
+[05:38:53][INFO ](XmlBeanDefinitionReader.java:317)-Loading XML bean definitions from ServletContext resource [/WEB-INF/spring/action-mybatis.xml]
+[05:38:53][INFO ](PropertiesLoaderSupport.java:172)-Loading properties file from ServletContext resource [/WEB-INF/config/jdbc/jdbc.properties]
+[05:38:53][DEBUG](UiApplicationContextUtils.java:85)-Unable to locate ThemeSource with name 'themeSource': using default [org.springframework.ui.context.support.ResourceBundleThemeSource@40dcd875]
+[05:38:53][DEBUG](LogFactory.java:109)-Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+[05:38:53][DEBUG](PooledDataSource.java:363)-PooledDataSource forcefully closed/removed all connections.
+[05:38:53][DEBUG](PooledDataSource.java:363)-PooledDataSource forcefully closed/removed all connections.
+[05:38:53][DEBUG](PooledDataSource.java:363)-PooledDataSource forcefully closed/removed all connections.
+[05:38:53][DEBUG](PooledDataSource.java:363)-PooledDataSource forcefully closed/removed all connections.
+[05:38:53][DEBUG](Logger.java:49)-Parsed configuration file: 'class path resource [mybatis/model/modelConfig.xml]'
+[05:38:53][DEBUG](Logger.java:49)-Parsed mapper file: 'file [C:\workspace-spring\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ezen12_Board (8)\WEB-INF\classes\mybatis\mappers\board.xml]'
+[05:38:53][DEBUG](Logger.java:49)-Parsed mapper file: 'file [C:\workspace-spring\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ezen12_Board (8)\WEB-INF\classes\mybatis\mappers\member.xml]'
+[05:38:54][DEBUG](JndiTemplate.java:150)-Looking up JNDI object with name [java:comp/env/spring.liveBeansView.mbeanDomain]
+[05:38:54][DEBUG](JndiLocatorSupport.java:101)-Converted JNDI name [java:comp/env/spring.liveBeansView.mbeanDomain] not found - trying original name [spring.liveBeansView.mbeanDomain]. javax.naming.NameNotFoundException: Name [spring.liveBeansView.mbeanDomain]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.liveBeansView.mbeanDomain]을(를) 찾을 수 없습니다.
+[05:38:54][DEBUG](JndiTemplate.java:150)-Looking up JNDI object with name [spring.liveBeansView.mbeanDomain]
+[05:38:54][DEBUG](JndiPropertySource.java:90)-JNDI lookup for name [spring.liveBeansView.mbeanDomain] threw NamingException with message: Name [spring.liveBeansView.mbeanDomain]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.liveBeansView.mbeanDomain]을(를) 찾을 수 없습니다.. Returning null.
+[05:38:54][INFO ](ContextLoader.java:325)-Root WebApplicationContext: initialization completed in 1162 ms
+[05:38:54][INFO ](FrameworkServlet.java:484)-FrameworkServlet 'appServlet': initialization started
+[05:38:54][DEBUG](JndiTemplate.java:150)-Looking up JNDI object with name [java:comp/env/spring.profiles.active]
+[05:38:54][DEBUG](JndiLocatorSupport.java:101)-Converted JNDI name [java:comp/env/spring.profiles.active] not found - trying original name [spring.profiles.active]. javax.naming.NameNotFoundException: Name [spring.profiles.active]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.profiles.active]을(를) 찾을 수 없습니다.
+[05:38:54][DEBUG](JndiTemplate.java:150)-Looking up JNDI object with name [spring.profiles.active]
+[05:38:54][DEBUG](JndiPropertySource.java:90)-JNDI lookup for name [spring.profiles.active] threw NamingException with message: Name [spring.profiles.active]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.profiles.active]을(를) 찾을 수 없습니다.. Returning null.
+[05:38:54][DEBUG](JndiTemplate.java:150)-Looking up JNDI object with name [java:comp/env/spring.profiles.default]
+[05:38:54][DEBUG](JndiLocatorSupport.java:101)-Converted JNDI name [java:comp/env/spring.profiles.default] not found - trying original name [spring.profiles.default]. javax.naming.NameNotFoundException: Name [spring.profiles.default]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.profiles.default]을(를) 찾을 수 없습니다.
+[05:38:54][DEBUG](JndiTemplate.java:150)-Looking up JNDI object with name [spring.profiles.default]
+[05:38:54][DEBUG](JndiPropertySource.java:90)-JNDI lookup for name [spring.profiles.default] threw NamingException with message: Name [spring.profiles.default]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.profiles.default]을(를) 찾을 수 없습니다.. Returning null.
+[05:38:54][DEBUG](JndiTemplate.java:150)-Looking up JNDI object with name [java:comp/env/spring.profiles.default]
+[05:38:54][DEBUG](JndiLocatorSupport.java:101)-Converted JNDI name [java:comp/env/spring.profiles.default] not found - trying original name [spring.profiles.default]. javax.naming.NameNotFoundException: Name [spring.profiles.default]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.profiles.default]을(를) 찾을 수 없습니다.
+[05:38:54][DEBUG](JndiTemplate.java:150)-Looking up JNDI object with name [spring.profiles.default]
+[05:38:54][DEBUG](JndiPropertySource.java:90)-JNDI lookup for name [spring.profiles.default] threw NamingException with message: Name [spring.profiles.default]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.profiles.default]을(를) 찾을 수 없습니다.. Returning null.
+[05:38:54][INFO ](AbstractApplicationContext.java:510)-Refreshing WebApplicationContext for namespace 'appServlet-servlet': startup date [Sat Jul 23 05:38:54 KST 2022]; parent: Root WebApplicationContext
+[05:38:54][INFO ](XmlBeanDefinitionReader.java:317)-Loading XML bean definitions from ServletContext resource [/WEB-INF/spring/appServlet/servlet-context.xml]
+[05:38:54][INFO ](AutowiredAnnotationBeanPostProcessor.java:153)-JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[05:38:54][DEBUG](UiApplicationContextUtils.java:85)-Unable to locate ThemeSource with name 'themeSource': using default [org.springframework.ui.context.support.DelegatingThemeSource@11c27ace]
+[05:38:55][INFO ](AbstractHandlerMethodMapping.java:220)-Mapped "{[/board/*Form.do],methods=[GET || POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView kr.co.board.board.controller.BoardControllerImpl.form(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+[05:38:55][INFO ](AbstractHandlerMethodMapping.java:220)-Mapped "{[/board/viewArticle.do],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView kr.co.board.board.controller.BoardControllerImpl.viewArticle(int,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+[05:38:55][INFO ](AbstractHandlerMethodMapping.java:220)-Mapped "{[/board/addNewArticle.do],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity kr.co.board.board.controller.BoardControllerImpl.addNewArticle(org.springframework.web.multipart.MultipartHttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+[05:38:55][INFO ](AbstractHandlerMethodMapping.java:220)-Mapped "{[/board/modArticle.do],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity kr.co.board.board.controller.BoardControllerImpl.modArticle(org.springframework.web.multipart.MultipartHttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+[05:38:55][INFO ](AbstractHandlerMethodMapping.java:220)-Mapped "{[/board/listArticles.do],methods=[GET || POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView kr.co.board.board.controller.BoardControllerImpl.listArticles(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+[05:38:55][INFO ](AbstractHandlerMethodMapping.java:220)-Mapped "{[/download.do],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void kr.co.board.common.file.FileDownloadController.download(java.lang.String,java.lang.String,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+[05:38:55][INFO ](AbstractHandlerMethodMapping.java:220)-Mapped "{[/],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String kr.co.board.HomeController.home(java.util.Locale,org.springframework.ui.Model)
+[05:38:55][INFO ](AbstractHandlerMethodMapping.java:220)-Mapped "{[/main.do],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView kr.co.board.member.controller.MemberControllerImpl.main(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+[05:38:55][INFO ](AbstractHandlerMethodMapping.java:220)-Mapped "{[/member/*Form.do],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView kr.co.board.member.controller.MemberControllerImpl.form(java.lang.String,java.lang.String,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+[05:38:55][INFO ](AbstractHandlerMethodMapping.java:220)-Mapped "{[/member/login.do],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView kr.co.board.member.controller.MemberControllerImpl.login(kr.co.board.member.dto.MemberDTO,org.springframework.web.servlet.mvc.support.RedirectAttributes,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[05:38:55][INFO ](AbstractHandlerMethodMapping.java:220)-Mapped "{[/member/logout.do],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView kr.co.board.member.controller.MemberControllerImpl.logout(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+[05:38:55][INFO ](AbstractHandlerMethodMapping.java:220)-Mapped "{[/member/addMember.do],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView kr.co.board.member.controller.MemberControllerImpl.addMember(kr.co.board.member.dto.MemberDTO,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+[05:38:55][INFO ](AbstractHandlerMethodMapping.java:220)-Mapped "{[/member/removeMember.do],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView kr.co.board.member.controller.MemberControllerImpl.removeMember(java.lang.String,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+[05:38:55][INFO ](AbstractHandlerMethodMapping.java:220)-Mapped "{[/member/listMembers.do],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView kr.co.board.member.controller.MemberControllerImpl.listMembers(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+[05:38:55][INFO ](RequestMappingHandlerAdapter.java:523)-Looking for @ControllerAdvice: WebApplicationContext for namespace 'appServlet-servlet': startup date [Sat Jul 23 05:38:54 KST 2022]; parent: Root WebApplicationContext
+[05:38:55][INFO ](RequestMappingHandlerAdapter.java:523)-Looking for @ControllerAdvice: WebApplicationContext for namespace 'appServlet-servlet': startup date [Sat Jul 23 05:38:54 KST 2022]; parent: Root WebApplicationContext
+[05:38:56][INFO ](AbstractUrlHandlerMapping.java:315)-Mapped URL path [/resources/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+[05:38:56][DEBUG](Digester.java:2011)-register('-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN', 'jar:file:/C:/workspace-spring/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/ezen12_Board%20(8)/WEB-INF/lib/tiles-core-2.2.2.jar!/org/apache/tiles/resources/tiles-config_2_0.dtd'
+[05:38:56][DEBUG](Digester.java:2011)-register('-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN', 'jar:file:/C:/workspace-spring/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/ezen12_Board%20(8)/WEB-INF/lib/tiles-core-2.2.2.jar!/org/apache/tiles/resources/tiles-config_2_1.dtd'
+[05:38:56][INFO ](TilesAccess.java:113)-Publishing TilesContext for context: org.springframework.web.servlet.view.tiles2.SpringWildcardServletTilesApplicationContext
+[05:38:56][DEBUG](MultiActionController.java:316)-Found action method [public org.springframework.web.servlet.ModelAndView kr.co.board.member.controller.MemberControllerImpl.main(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception]
+[05:38:56][DEBUG](MultiActionController.java:316)-Found action method [public org.springframework.web.servlet.ModelAndView kr.co.board.member.controller.MemberControllerImpl.logout(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception]
+[05:38:56][DEBUG](MultiActionController.java:316)-Found action method [public org.springframework.web.servlet.ModelAndView kr.co.board.member.controller.MemberControllerImpl.listMembers(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception]
+[05:38:56][DEBUG](JndiTemplate.java:150)-Looking up JNDI object with name [java:comp/env/spring.liveBeansView.mbeanDomain]
+[05:38:56][DEBUG](JndiLocatorSupport.java:101)-Converted JNDI name [java:comp/env/spring.liveBeansView.mbeanDomain] not found - trying original name [spring.liveBeansView.mbeanDomain]. javax.naming.NameNotFoundException: Name [spring.liveBeansView.mbeanDomain]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.liveBeansView.mbeanDomain]을(를) 찾을 수 없습니다.
+[05:38:56][DEBUG](JndiTemplate.java:150)-Looking up JNDI object with name [spring.liveBeansView.mbeanDomain]
+[05:38:56][DEBUG](JndiPropertySource.java:90)-JNDI lookup for name [spring.liveBeansView.mbeanDomain] threw NamingException with message: Name [spring.liveBeansView.mbeanDomain]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.liveBeansView.mbeanDomain]을(를) 찾을 수 없습니다.. Returning null.
+[05:38:56][INFO ](FrameworkServlet.java:503)-FrameworkServlet 'appServlet': initialization completed in 2293 ms
